@@ -1,0 +1,2581 @@
+/* Normal desktop :1300px. */
+@media (min-width: 1371px) and (max-width: 1600) {
+
+}
+
+/* large Desktop */
+
+@media (min-width: 1371px) and (max-width: 1600px) {
+
+  .meedy_nav_manu {
+    padding: 20px 0 20px;
+  }
+  .meedy_menu > ul > li > a {
+    margin: 0 14px;
+  }
+  .hero-content h1.hero_title {
+    font-size: 70px;
+  }
+  .hero-content h1 {
+    font-size: 70px;
+    line-height: 70px;
+}
+.hero-thumb {
+  margin-left: -100px;
+}
+.service-section {
+  padding: 105px 0 120px 110px;
+}
+.feature-single-box {
+  padding: 45px 30px 28px;
+}
+.medizet-section-title h1 {
+  font-size: 42px;
+}
+.about-thumb {
+  margin-left: -170px;
+}
+.counter-right-side.style_two .counter-single-box {
+  right: 15px;
+}
+
+
+.why-choose-us-serction .medizet-section-title h1 {
+  font-size: 30px;
+  line-height: 38px;
+}
+.why-choose-us-serction .medizet-section-title p {
+  width: 100%;
+}
+.choose_right {
+  margin-left: 0;
+}
+.choose_main_bx {
+  padding: 50px 18px 50px;
+  width: 450px;
+}
+.choose_main_bx.two {
+  padding: 40px 18px 40px;
+}
+
+.testimonial-section {
+  padding: 105px 0 270px 110px;
+}
+.call-to_action_thumb {
+  left: 22px;
+}
+.call_to_actions_item {
+  margin-left: -35px;
+}
+.call_content p {
+  font-size: 17px;
+}
+.subscribe-title h1 {
+  font-size: 28px;
+}
+
+/* Start Home Two */
+
+.hero-thumb_img {
+  left: 63%;
+}
+.doctors_shape {
+  right: 2%;
+}
+.counter-hero_bx {
+  right: 2%;
+}
+
+.skil_item {
+  gap: 25px;
+}
+.skill-content h3 {
+  font-size: 21px;
+}
+
+
+.about_section {
+  padding: 110px 0 110px;
+}
+.about-thumb.style_two {
+  margin-left: -45px;
+}
+.about-service-list ul li {
+  padding: 9px 20px 9px;
+}
+.author-bio h3 {
+  font-size: 16px;
+}
+.about-icon-box {
+  padding: 24px 21px 23px;
+}
+
+.testimonial-section.style_three {
+  padding: 105px 0 120px 126px;
+}
+.single-services-box {
+  padding: 34px 22px 28px;
+}
+.services-desc p {
+  font-size: 15px;
+}
+.owl-nav {
+  left: -97px;
+}
+
+
+
+}
+
+
+/* Mediam desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1370px) {
+
+  .meedy_nav_manu {
+    padding: 20px 0 20px;
+  }
+  .meedy_menu > ul > li > a {
+    margin: 0 14px;
+  }
+  .hero-content h1.hero_title {
+    font-size: 70px;
+  }
+  .hero-content h1 {
+    font-size: 70px;
+    line-height: 70px;
+}
+.hero-thumb {
+  margin-left: -100px;
+}
+.service-section {
+  padding: 105px 0 120px 30px;
+}
+.feature-single-box {
+  padding: 45px 30px 28px;
+}
+.medizet-section-title h1 {
+  font-size: 42px;
+}
+.about-thumb {
+  margin-left: -170px;
+}
+.counter-right-side.style_two .counter-single-box {
+  right: 15px;
+}
+
+.why-choose-us-serction .medizet-section-title h1 {
+  font-size: 30px;
+  line-height: 38px;
+}
+.why-choose-us-serction .medizet-section-title p {
+  width: 100%;
+}
+.choose_right {
+  margin-left: 0;
+}
+.choose_main_bx {
+  padding: 50px 18px 50px;
+  width: 376px;
+}
+
+.choose_counter h1 {
+  font-size: 30px;
+}
+.choose_counter h1 span {
+  top: -7px;
+}
+.choose_main_bx.two {
+  padding: 40px 18px 40px;
+}
+.choose_counter:before {
+  bottom: 0;
+}
+.choose_title h3 {
+  font-size: 18px;
+}
+.testimonial-section {
+  padding: 105px 0 270px 30px;
+}
+.call-to_action_thumb {
+  left: 22px;
+}
+.call_to_actions_item {
+  margin-left: -35px;
+}
+.call_content p {
+  font-size: 17px;
+}
+.subscribe-title h1 {
+  font-size: 28px;
+}
+
+.why-choose-us-serction {
+  padding: 120px 25px 90px;
+}
+.testi-single-box {
+  padding: 36px 30px 40px;
+}
+.about-service-list ul li {
+  font-size: 15px;
+}
+
+
+
+/* Start Home Two */
+
+.hero-thumb_img {
+  left: 63%;
+}
+.doctors_shape {
+  right: 2%;
+}
+.counter-hero_bx {
+  right: 2%;
+}
+
+.skil_item {
+  gap: 25px;
+}
+.skill-content h3 {
+  font-size: 21px;
+}
+
+
+.about_section {
+  padding: 110px 0 110px;
+}
+.about-thumb.style_two {
+  margin-left: -45px;
+}
+.about-service-list ul li {
+  padding: 9px 20px 9px;
+}
+.author-bio h3 {
+  font-size: 16px;
+}
+.about-icon-box {
+  padding: 24px 21px 23px;
+}
+.testimonial-section.style_three {
+  padding: 105px 0 120px 40px;
+}
+.services-title h3 {
+  font-size: 22px;
+}
+
+.owl-nav {
+  display: none;
+}
+.active.center .single-project-box .project-icon a {
+  top: 21px;
+}
+.single-project-box:hover .project-icon a {
+  top: 21px;
+}
+
+
+}
+
+/* Mediam desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+  .meedy_nav_manu {
+    padding: 20px 0 20px;
+  }
+.nav-btn.navSidebar-button {
+  display: none;
+}
+.search-box-btn i {
+  display: none;
+}
+.meedy_menu > ul > li > a {
+  margin: 0 8px;
+}
+nav.meedy_menu {
+  margin-left: 20px;
+}
+.header-button a {
+  padding: 14px 17px;
+  margin: 0;
+}
+
+.hero-section {
+  height: 700px;
+}
+.hero-thumb {
+  display: none;
+}
+.hero-content h1.hero_title {
+  font-size: 65px;
+}
+.hero-content h1 {
+  font-size: 65px;
+  line-height: 62px;
+  font-weight: 700;
+}
+.hero-content p {
+  font-size: 18px;
+}
+.slider-dots.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: none;
+}
+.counter_main_title h2 {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+
+.feature-single-box {
+  padding: 35px 10px 20px;
+}
+.head-title h2 {
+  font-size: 18px;
+}
+.bx_2 .medizet_icon a {
+  padding: 4px 22px;
+}
+.feature-single-box.bx_3 {
+  padding: 35px 10px 38px;
+}
+.feature-content p {
+  font-size: 15px;
+}
+
+.about-thumb {
+  margin-left: 0;
+}
+.counter-right-side.style_two .counter-single-box {
+  right: 234px;
+}
+
+.service-section {
+  padding: 105px 0 120px 20px;
+}
+.why-choose-us-serction {
+  padding: 105px 10px 90px;
+}
+
+.choose_right {
+    margin-left: 0;
+}
+.choose_main_bx.two {
+  margin-top: 30px;
+}
+.choose_thumb {
+  left: inherit;
+}
+
+.testimonial-section {
+  padding: 105px 0 270px 10px;
+}
+.testi-single-box {
+  padding: 36px 20px 35px;
+}
+.slider_nav_btn {
+  right: 6%;
+}
+
+.team-section {
+  padding: 270px 0 105px;
+  margin-top: -165px;
+}
+.contact-form-box {
+  padding: 39px 18px 54px;
+}
+.blog-title h2 a {
+  font-size: 19px;
+  line-height: 26px;
+}
+.subscribe-title h1 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+
+/* Start Home Two */
+
+.hero-thumb_img {
+  left: 70%;
+}
+.doctors_shape {
+  display: none;
+}
+.hero-contents h1 {
+  font-size: 88px;
+  line-height: 93px;
+}
+.counter-hero_bx {
+  right: 1%;
+}
+.madicla-content p {
+  width: 32%;
+}
+
+.medizet-section-title.skill_title h1 {
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.skil_item {
+  display: block;
+}
+.skil_thumb img {
+  width: 100%;
+}
+.skill-icon {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.about-thumb.style_two img {
+  width: 100%;
+}
+.medizet-section-title h1 {
+  font-size: 35px;
+  line-height: 45px;
+}
+.about-service-list ul li {
+  padding: 6px 15px 6px;
+  font-size: 13px;
+}
+
+.about_section.style_two {
+  padding: 100px 0 110px;
+}
+.about_section.style_two .medizet-author {
+  display: block;
+}
+.about_section.style_two .about_experience {
+  margin-left: 0;
+}
+.about_experience h2.abut_count span {
+  top: 62%;
+}
+.author-icon {
+  margin-bottom: 20px;
+}
+
+.testi-single-box.style_two {
+  padding: 45px 15px 44px 20px;
+}
+.testi-single-box.style_two .testi-desc p {
+  font-size: 15px;
+  line-height: 24px;
+}
+.testi-single-box.style_two .user-info {
+  padding-top: 5px;
+}
+.testimonial_thumb img {
+  height: 438px;
+}
+.call-to_action_thumb {
+  left: 16px;
+  z-index: -1;
+}
+.call_content h3 {
+  font-size: 37px;
+  margin: 0 0 4px;
+}
+.call_content p {
+  font-size: 17px;
+}
+.testimonial-section.style_three {
+  padding: 105px 0 120px 25px;
+}
+.single-services-box {
+  padding: 28px 20px 25px;
+}
+.services-title h3 {
+  font-size: 19px;
+}
+.head-title h3 {
+  padding: 0px 0 7px;
+}
+.project-content {
+  width: 100%;
+}
+
+.owl-nav {
+  display: none;
+}
+.single-project-box:hover .project-icon a {
+  top: 20px;
+}
+.active.center .single-project-box .project-icon a {
+  top: 20px;
+}
+.pricing-single-item {
+  padding: 32px 25px 35px;
+}
+.header-address-info p {
+  font-size: 13px;
+}
+
+.medizet-section .medizet-icons {
+  float: inherit;
+  margin-bottom: 20px;
+}
+.medizet-category-box {
+  padding: 25px 24px 18px;
+}
+.medizet-section.blg-list {
+  padding: 120px 0 90px;
+}
+.category-content h4 a {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.blog-details-single-items {
+  padding: 40px 37px 41px 40px;
+}
+.blog-content-text.text-left h2 {
+  font-size: 25px;
+}
+.details_rcnt {
+  padding: 30px 22px 6px;
+}
+.swiper_relative {
+    margin-right: 20px;
+}
+
+
+}
+
+
+
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .sticky {
+    position: absolute !important;
+  }
+
+  .topber_area {
+    display: none;
+  }
+
+  .meedy_nav_manu {
+    display: none;
+  }
+
+  .hero-section {
+    height: 700px;
+  }
+  .hero-thumb {
+    display: none;
+  }
+  .hero-content h1.hero_title {
+    font-size: 65px;
+  }
+  .hero-content h1 {
+    font-size: 65px;
+    line-height: 62px;
+    font-weight: 700;
+  }
+  .hero-content p {
+    font-size: 18px;
+  }
+  .slider-dots.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+  }
+  .counter_main_title h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .counter_section {
+    padding: 60px 0 39px;
+}
+  .counter_item {
+    margin-bottom: 20px;
+}
+
+.feature-serction {
+  padding: 100px 0 90px;
+}
+.feature-single-box {
+  padding: 45px 18px 28px;
+}
+.feature-single-box.bx_3 {
+  padding: 45px 18px 50px;
+}
+.about-thumb {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.counter-right-side.style_two .counter-single-box {
+  right: 0;
+}
+.pl-90 {
+  padding-bottom: 70px;
+}
+
+.service-section {
+  padding: 90px 0 100px 30px;
+}
+
+
+.why-choose-us-serction {
+  padding: 110px 30px 70px;
+}
+.choose_right {
+  margin-left: 0;
+}
+.choose_thumb {
+  left: inherit;
+}
+
+.testimonial-section {
+  padding: 90px 0 246px 30px;
+}
+.testi-single-box {
+  padding: 35px 20px 40px;
+}
+.call-to_action_thumb {
+  display: none;
+}
+.call_to_actions_item {
+  margin-left: -60px;
+}
+
+.team-section {
+  padding: 226px 0 85px;
+}
+.counter-single-box.style_three {
+  justify-content: left;
+  margin-top: 20px;
+}
+.brand-section {
+  padding: 100px 0 100px;
+}
+
+
+.blog-section {
+  padding: 90px 0 43px;
+}
+.blog-section .medizet-btn {
+  text-align: left !important;
+  margin-top: 20px;
+}
+.blog-title h2 a {
+  font-size: 22px;
+  line-height: 32px;
+}
+.medizet-btn {
+  text-align: left !important;
+  margin-top: 20px;
+}
+
+/* Start Home  */
+
+.hero-thumb_img {
+  left: 61%;
+  z-index: -1;
+}
+.doctors_shape {
+  display: none;
+}
+.counter-hero_bx {
+  right: 1%;
+  padding: 30px 30px 20px;
+  width: 300px;
+}
+.madicla-content p {
+  color: #f9f9f9;
+  width: 36%;
+}
+
+.skill_section {
+  padding: 87px 0 0;
+}
+.skil_item {
+  display: block;
+}
+.skil_thumb img {
+  width: 100%;
+}
+.skill-icon {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.about_section.style_two {
+  padding: 100px 0 95px;
+}
+.about-thumb.style_two {
+  margin-left: 0;
+  margin-bottom: 25px;
+}
+.about-thumb.style_two img {
+  width: 100%;
+}
+.about_section.style_three {
+  padding: 100px 0 75px;
+}
+
+.testimonial-section.style_two {
+  padding: 100px 0 248px;
+}
+.testimonial_thumb {
+  margin-bottom: 30px;
+}
+
+
+  /******************************
+  <--Inner Page Section-->  
+  ********************************/
+  .breatcome-section {
+    background-size: cover;
+    margin-top: 0;
+  }
+
+  .testimonial-section.style_three {
+    padding: 90px 0 100px 35px;
+}
+  /* About Section */
+  .style-3.about-section .about-thumb img {
+    padding: 0;
+  }
+
+  .style-3.about-section .about-thumb {
+    padding-bottom: 30px;
+  }
+  /* Service Inner Page */
+
+  .single-services-box {
+    padding: 38px 25px 32px;
+  }
+
+  .services-title h3 {
+    font-size: 22px;
+  }
+
+  .services-desc p {
+    font-size: 16px;
+  }
+  /* Details Page  */
+  .medizet-icons {
+    float: inherit;
+    margin-bottom: 30px;
+  }
+
+  /* Error Page */
+  .error-section {
+    padding: 90px 0px 90px;
+  }
+
+  /* Appoinment Section */
+
+  .style-1 .testi-single-box {
+    margin-bottom: 35px;
+  }
+
+
+  .medizet-section.style-2 .blog-title h2 a {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .medizet-thumb img {
+    width: 100%;
+  }
+
+  .style-2.accordion li a span:before {
+    right: -642px;
+  }
+
+  .accordion2 li a span:before {
+    right: -644px;
+  }
+
+  /* Project Section inner Page */
+
+  .project-content {
+    padding: 25px 22px 10px;
+  }
+
+  .project-content h2 {
+    font-size: 20px;
+  }
+
+  .project-icon a {
+    top: 20px;
+  }
+
+  /* Testimonial inner Page */
+
+  .upp.style-2 .testi-bg .testi-single-box {
+    padding: 5px 25px 40px;
+  }
+
+  .upp.style-2 .testi-bg .user-info {
+    padding: 0;
+    margin: 30px 12px 0 0;
+  }
+
+  .upp.style-2 .user-name h4 {
+    font-size: 18px;
+  }
+
+  .upp.style-2 .testi-desc p {
+    font-size: 16px;
+  }
+
+  .upp.style-2 .user-info {
+    padding: 25px 15px 25px 1px;
+    margin: 0px 10px 0 0;
+  }
+
+  .people-pic img {
+    margin-right: 0;
+    width: 62%;
+  }
+
+  .style-2 .testi-quote2 {
+    right: 20px;
+    bottom: 39px;
+  }
+
+  .testi-quote2 img {
+    width: 74%;
+  }
+
+  .upp.style-2 .user-name h6 {
+    font-size: 15px;
+  }
+  .team-details-area {
+    padding: 100px 0 100px;
+}
+.style-2.contact-with-medizet {
+  top: 0;
+}
+.blog-single-box.blog_lists .blog-content {
+  padding: 29px 0 20px;
+}
+.blog-single-box.blog_lists {
+  display: block;
+}
+.contact-service-box:before {
+  display: none;
+}
+.service-section.style-3 .medizet-section-title.home-2 {
+  padding-left: 0;
+}
+
+.owl-nav {
+  display: none;
+}
+.pricing-section {
+  padding: 85px 0 70px;
+}
+
+.faq-section.style_upper {
+  padding: 85px 0 60px;
+}
+.faq-section.upp {
+  padding: 0 0 80px;
+}
+.medizet-section.blg-list {
+  padding: 100px 0 60px;
+}
+.swiper_relative {
+    margin-right: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .sticky {
+    position: absolute !important;
+  }
+  .topber_area {
+    display: none;
+  }
+  .meedy_nav_manu {
+    display: none;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    height: 700px;
+  }
+  .hero-thumb {
+    display: none;
+  }
+  .hero-content h1.hero_title {
+    font-size: 60px;
+}
+  .hero-content h1 {
+    font-size: 65px;
+    line-height: 62px;
+    font-weight: 700;
+  }
+  .hero-content p {
+    font-size: 18px;
+  }
+  .slider-dots.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+  }
+  .counter_main_title h2 {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+  .counter_section {
+    padding: 60px 0 39px;
+}
+  .counter_item {
+    margin-bottom: 20px;
+}
+
+.feature-serction {
+  padding: 100px 0 90px;
+}
+
+.about-thumb {
+  margin-left: 0;
+}
+.about-thumb img {
+  width: 100%;
+}
+.counter-right-side.style_two .counter-single-box {
+  right: 0;
+  width: 195px;
+  padding: 3px 14px 2px;
+}
+.medizet-section-title h1 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.pl-90 {
+  padding-bottom: 70px;
+}
+
+.service-section {
+  padding: 90px 0 100px 30px;
+}
+
+.why-choose-us-serction {
+  padding: 110px 30px 70px;
+}
+.choose_right {
+  margin-left: 0;
+}
+.choose_thumb {
+  left: inherit;
+}
+
+.testimonial-section {
+  padding: 90px 0 246px 30px;
+}
+.testi-single-box {
+    padding: 35px 20px 40px;
+    margin-right: 20px;
+}
+.call-to_action_thumb {
+  display: none;
+}
+.call_to_actions_item {
+  margin-left: -60px;
+}
+
+.team-section {
+  padding: 226px 0 85px;
+}
+.team-single-box {
+  padding: 25px 20px 26px;
+}
+.team-content h2 {
+  font-size: 22px;
+}
+
+.counter-single-box.style_three {
+  justify-content: left;
+  margin-top: 20px;
+}
+.brand-section {
+  padding: 100px 0 100px;
+}
+
+.medizet-author {
+  gap: 6px;
+}
+.author-bio h3 {
+  font-size: 16px;
+}
+.choose_main_bx.two {
+  margin-top: 20px;
+}
+
+.row.call_action_bg {
+  padding: 73px 12px 62px 80px;
+}
+.call_content h3 {
+  font-size: 30px;
+}
+.call_content p {
+  font-size: 17px;
+}
+.subscribe-title h1 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.blog-section {
+  padding: 90px 0 43px;
+}
+.blog-section .medizet-btn {
+  text-align: left !important;
+  margin-top: 20px;
+}
+.medizet-btn {
+  text-align: left !important;
+  margin-top: 20px;
+}
+.footer-bottom_text.text-right {
+  text-align: left !important;
+  margin-top: 15px;
+}
+
+/* Start Home Two Css */
+
+.counter-hero_bx {
+  display: none;
+}
+.hero-thumb_img {
+  z-index: -1;
+}
+.doctors_shape {
+  display: none;
+}
+.hero-contents h1 {
+  font-size: 80px;
+  line-height: 85px;
+}
+.madicla-content p {
+  font-size: 17px;
+  width: 52%;
+  color: #ffffffd1;
+}
+
+.skill_section {
+  padding: 85px 0 0;
+}
+.medizet-section-title.skill_title h1 {
+  font-size: 30px;
+}
+.skil_item {
+  display: block;
+  margin-bottom: 30px;
+}
+.skil_thumb img {
+  width: 100%;
+}
+.skill-icon {
+  margin-top: 20px;
+}
+
+.about_section.style_two {
+  padding: 70px 0 90px;
+}
+.about-thumb.style_two {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.about_section.style_three {
+  padding: 100px 0 75px;
+}
+
+.testimonial-section.style_two {
+  padding: 100px 0 247px;
+}
+.testimonial_thumb {
+  margin-bottom: 30px;
+}
+
+
+  /******************************
+  <--Inner Page Section-->  
+  ********************************/
+  .breatcome-section {
+    background-size: cover;
+    margin-top: 0;
+  }
+
+  .breatcome-content h1 {
+    font-size: 50px;
+  }
+
+  /* About Section */
+  .style-3.about-section .about-thumb img {
+    padding: 0;
+  }
+
+  .style-3.about-section .about-thumb {
+    padding-bottom: 30px;
+  }
+
+  .style-3 .counter-right-side {
+    width: auto;
+  }
+
+  /* Details Page  */
+
+  
+
+  /* Error Page */
+  .error-section {
+    padding: 90px 0px 90px;
+  }
+
+  .error-content h1 {
+    font-size: 160px;
+    width: 460px;
+    height: 259px;
+  }
+
+  /* Appoinment Section */
+
+  .style-1 .testi-single-box {
+    margin-bottom: 35px;
+  }
+
+  .medizet-thumb img {
+    width: 100%;
+  }
+
+  iframe {
+    width: 600px;
+  }
+
+  /* Testimonial inner Page */
+
+  .upp.style-2 .testi-single-box {
+    padding: 58px 35px 38px;
+  }
+
+  .upp.style-2 .testi-bg .user-info {
+    padding: 0;
+    margin: 30px 12px 0 0;
+  }
+
+  .upp.style-2 .user-info {
+    padding: 25px 15px 25px 1px;
+    margin: 0px 10px 0 0;
+  }
+
+  .upp.style-2 .user-name h4 {
+    font-size: 20px;
+  }
+
+  .people-pic img {
+    margin-right: 0;
+    width: 62%;
+  }
+
+  .upp.style-2 .testi-desc p {
+    font-size: 18px;
+  }
+  .team-details-area {
+    padding: 100px 0 100px;
+}
+.style-2.contact-with-medizet {
+  top: 0;
+}
+.faq-section .tab_container {
+  padding: 5px 0 60px;
+}
+.blog-single-box.blog_lists {
+  display: block;
+}
+.blog-details-comment.reply {
+  margin-left: 0;
+}
+.comment-bx {
+  padding: 47px 30px 60px;
+}
+.blog-details-thumb {
+  margin-bottom: 30px;
+}
+p.desc-style1 {
+  margin-right: 0;
+}
+.contact-service-box:before {
+  display: none;
+}
+.footer-bottom-menu ul li {
+  margin-left: 0;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.service-section.style-3 .medizet-section-title.home-2 {
+  padding-left: 0;
+}
+.medizet-section-title.home-2 h1 {
+  font-size: 30px;
+}
+.testimonial-section.style_three {
+  padding: 90px 0 100px 35px;
+}
+.team-details {
+  padding: 20px;
+}
+.contact-form-box.inner_page {
+  padding: 23px 20px 34px;
+}
+.project-section {
+  padding: 100px 0 20px;
+}
+.owl-nav {
+  display: none;
+}
+.pricing-section {
+  padding: 85px 0 70px;
+}
+
+.faq-section.style_upper {
+  padding: 85px 0 60px;
+}
+.faq-section.upp {
+  padding: 0 0 80px;
+}
+.medizet-section.blg-list {
+  padding: 100px 0 70px;
+}
+.blog-details-single-items {
+  padding: 40px 37px 41px 40px;
+}
+.swiper_relative {
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+  /*  */
+}
+
+
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  
+  .sticky {
+    position: absolute !important;
+  }
+  .topber_area {
+    display: none;
+  }
+  .meedy_nav_manu {
+    display: none;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    height: 700px;
+  }
+  .hero-thumb {
+    display: none;
+  }
+  .hero-content h1.hero_title {
+    font-size: 55px;
+  }
+  .hero-content h1 {
+    font-size: 57px;
+    line-height: 62px;
+    font-weight: 700;
+  }
+  .hero-content p {
+    font-size: 16px;
+    margin: 22px 0 42px;
+  }
+  .slider-dots.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+  }
+  .counter_main_title h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .counter_section {
+    padding: 60px 0 39px;
+  }
+  .counter_item {
+    margin-bottom: 20px;
+  }
+  
+  .feature-serction {
+    padding: 100px 0 90px;
+  }
+  
+  .about-thumb {
+    margin-left: 0;
+  }
+  .about-thumb img {
+    width: 100%;
+  }
+  .counter-right-side.style_two .counter-single-box {
+    right: 0;
+    width: 168px;
+    padding: 16px 14px 7px;
+  }
+  .style_two .odometer-wrapper.counter-box-title h1 {
+    font-size: 45px;
+  }
+  .style_two .counter-desc p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .medizet-section-title h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .pl-90 {
+    padding-bottom: 70px;
+  }
+  .service-section {
+    padding: 90px 0 100px 15px;
+  }
+  
+  .why-choose-us-serction {
+    padding: 90px 12px 70px;
+  }
+  .choose_main_bx {
+    width: 437px;
+    padding: 50px 25px 50px;
+  }
+  .choose_main_bx.two {
+    padding: 40px 25px 40px;
+  }
+  .choose_right {
+    margin-left: 0;
+  }
+  .choose_thumb {
+    left: inherit;
+  }
+  .testimonial-section {
+    padding: 90px 0 246px 30px;
+  }
+  .testi-single-box {
+    padding: 35px 20px 40px;
+  }
+  .call-to_action_thumb {
+    display: none;
+  }
+  .call_to_actions_item {
+    margin-left: -70px;
+  }
+  .slider_nav_btn {
+    display: none;
+  }
+  .team-section {
+    padding: 226px 0 85px;
+  }
+  .team-single-box {
+    padding: 25px 20px 26px;
+  }
+  .team-content h2 {
+    font-size: 22px;
+  }
+  .counter-single-box.style_three {
+    justify-content: left;
+    margin-top: 20px;
+  }
+  .brand-section {
+    padding: 100px 0 100px;
+  }
+  .medizet-author {
+    display: block;
+  }
+  .author-icon {
+    margin-bottom: 12px;
+  }
+  .author-bio h3 {
+    font-size: 16px;
+  }
+  .choose_main_bx.two {
+    margin-top: 20px;
+  }
+  .about_experience {
+    margin-left: 0;
+    justify-content: left;
+  }
+  .about_experience h2.abut_count span {
+    top: 66%;
+  }
+  
+  .row.call_action_bg {
+    padding: 73px 12px 62px 80px;
+  }
+  .call_content h3 {
+    font-size: 28px;
+  }
+  .call_content p {
+    font-size: 17px;
+  }
+  .subscribe-title h1 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .blog-section {
+    padding: 90px 0 43px;
+  }
+  .blog-section .medizet-btn {
+    text-align: left !important;
+    margin-top: 20px;
+  }
+  .medizet-btn {
+    text-align: left !important;
+    margin-top: 20px;
+}
+  .footer-bottom_text.text-right {
+    text-align: left !important;
+    margin-top: 15px;
+  }
+  
+  
+
+
+/* Start Home Two Css */
+
+.counter-hero_bx {
+  display: none;
+}
+.hero-thumb_img {
+  z-index: -1;
+}
+.doctors_shape {
+  display: none;
+}
+.hero-contents h1 {
+  font-size: 58px;
+  line-height: 59px;
+}
+.madicla-content p {
+  font-size: 17px;
+  width: 55%;
+  color: #ffffffd1;
+}
+
+.skill_section {
+  padding: 85px 0 0;
+}
+.medizet-section-title.skill_title h1 {
+  font-size: 26px;
+}
+.skil_item {
+  display: block;
+  margin-bottom: 30px;
+}
+.skil_thumb img {
+  width: 100%;
+}
+.skill-icon {
+  margin-top: 20px;
+}
+
+.about_section.style_two {
+  padding: 70px 0 90px;
+}
+.about-thumb.style_two {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.about_section.style_three {
+  padding: 100px 0 75px;
+}
+
+.testimonial-section.style_two {
+  padding: 100px 0 247px;
+}
+.testimonial_thumb {
+  margin-bottom: 30px;
+}
+
+.team-details-content {
+  padding: 0;
+}
+
+
+
+  /******************************
+  <--Inner Page Section-->  
+  ********************************/
+  .breatcome-section {
+    background-size: cover;
+    margin-top: 0;
+  }
+
+  .breatcome-content h1 {
+    font-size: 42px;
+  }
+
+  /* service section */
+  .service-section.style-4 .single-service-box .service-thumb img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  .service-section.style-4 .single-service-box .single_service_inner {
+    display: block;
+}
+.service-section.style-4 .single-service-box .service-icon {
+  right: 34px;
+  top: 37px;
+}
+
+  /* About Section */
+  .style-3.about-section .about-thumb img {
+    padding: 0;
+  }
+
+  .style-3.about-section .about-thumb {
+    padding-bottom: 30px;
+  }
+
+  .style-3 .counter-right-side {
+    width: auto;
+  }
+
+  /* Testimonial */
+  .style-2 .testi-single-box {
+    padding: 35px 30px 20px;
+  }
+
+  .style-2 .testi-quote2 {
+    right: 12px;
+  }
+
+  .style-2 .testi-quote2 img {
+    width: 78%;
+  }
+
+  .testi-thumb img {
+    width: 100%;
+  }
+
+  /* Details Page  */
+
+  .medizet-title h2 {
+    font-size: 25px;
+  }
+
+
+  .accordion li a {
+    padding: 16px 53px 16px 20px;
+  }
+
+  .accordion li a span {
+    font-size: 18px;
+    padding: 0 7px 0 0px;
+  }
+
+  /* Error Page */
+  .error-section {
+    padding: 90px 0px 90px;
+  }
+
+  .error-content h1 {
+    font-size: 112px;
+    width: 370px;
+    height: 223px;
+    line-height: 220px;
+  }
+
+  /* Appoinment Section */
+
+  .style-1 .testi-single-box {
+    margin-bottom: 35px;
+  }
+
+  .medizet-thumb img {
+    width: 100%;
+  }
+
+  iframe {
+    width: 480px;
+  }
+
+  .accordion2 li a {
+    font-size: 18px;
+  }
+
+  /* Testimonial inner Page */
+
+  .upp.style-2 .testi-single-box {
+    padding: 58px 35px 38px;
+  }
+
+  .upp.style-2 .testi-bg .user-info {
+    padding: 0;
+    margin: 30px 12px 0 0;
+  }
+
+  .upp.style-2 .user-info {
+    padding: 25px 15px 25px 1px;
+    margin: 0px 10px 0 0;
+  }
+
+  .testimonial-section.style-2.upp .user-name h4 {
+    font-size: 17px;
+  }
+
+  .testimonial-section.style-2.upp .people-pic img {
+    margin-right: 0;
+    width: 62%;
+  }
+
+  .upp.style-2 .user-name h6 {
+    font-size: 15px;
+  }
+
+  .upp.style-2 .testi-desc p {
+    font-size: 18px;
+  }
+
+.blog-icon {
+  padding-right: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+.medizet-blog {
+  padding: 30px 20px 14px;
+}
+.blog-desc p {
+  font-size: 16px;
+}
+.team-details-area {
+  padding: 100px 0 100px;
+}
+.style-2.contact-with-medizet {
+  top: 0;
+}
+.footer_title h2:before {
+  display: none;
+}
+.upp.style-2.accordion li a {
+  font-size: 14px;
+  line-height: 20px;
+}
+.faq-section .tab_container {
+  padding: 0 0 60px;
+}
+.blog-single-box.blog_lists {
+  display: block;
+}
+.blog-social-tags a {
+  padding: 4px 14px;
+  font-size: 14px;
+}
+h3.blog-dtls-title3 {
+  font-size: 25px;
+}
+p.desc-style1 {
+  margin-right: 0;
+  font-size: 15px;
+}
+.blog-details-comment.reply {
+  margin-left: 0;
+}
+.comment-bx {
+  padding: 47px 30px 60px;
+}
+.check_bx.two p {
+  font-size: 13px;
+}
+.blog-details-single-items {
+  padding: 40px 19px 20px 21px;
+}
+.blog-content-text.text-left h2 {
+  font-size: 21px;
+  line-height: 36px;
+}
+.blog-meta span {
+  font-size: 14px;
+}
+p.qouik2 {
+  margin: 21px 0 42px 0;
+}
+.contact-service-box:before {
+  display: none;
+}
+
+.service-section.style-3 .medizet-section-title.home-2 {
+  padding-left: 0;
+}
+.testimonial-section.style_three {
+  padding: 90px 0 100px 35px;
+}
+.pricing-section {
+  padding: 85px 0 70px;
+}
+.faq-section.style_upper {
+  padding: 85px 0 0;
+}
+.faq-section.upp {
+  padding: 0 0 80px;
+}
+.medizet-section.blg-list {
+  padding: 100px 0 70px;
+}
+.appoinment-section .medizet-section-title h1 {
+  font-size: 33px;
+}
+
+
+
+
+
+
+
+
+
+  /*  */
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .sticky {
+    position: absolute !important;
+  }
+  .topber_area {
+    display: none;
+  }
+  .meedy_nav_manu {
+    display: none;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    height: 600px;
+  }
+  .hero-thumb {
+    display: none;
+  }
+  .hero-content h1.hero_title {
+    font-size: 35px;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+    line-height: 34px;
+    font-weight: 600;
+  }
+  .hero-content p {
+    font-size: 16px;
+    margin: 22px 0 42px;
+  }
+  .slider-dots.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+  }
+  .counter_section {
+    padding: 60px 0 39px;
+  }
+  .counter_item {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .counter_main_title h2 {
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 12px;
+  }
+  
+  .feature-serction {
+    padding: 100px 0 90px;
+  }
+  .feature-single-box {
+    padding: 45px 15px 28px;
+  }
+  .feature-single-box.bx_3 {
+    padding: 45px 16px 50px;
+  }
+  .feature-content p {
+    font-size: 15px;
+  }
+
+  .about-thumb {
+    margin-left: 0;
+  }
+  .about-thumb img {
+    width: 100%;
+  }
+  .counter-right-side.style_two .counter-single-box {
+    display: none;
+  }
+  .style_two .odometer-wrapper.counter-box-title h1 {
+    font-size: 45px;
+  }
+  .style_two .counter-desc p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .medizet-section-title h1 {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .pl-90 {
+    padding-bottom: 70px;
+  }
+  .service-section {
+    padding: 90px 0 100px 10px;
+  }
+  
+  .marquee-content h2 span img {
+    margin: -6px 8px 0 8px;
+    width: 21px;
+}
+  .marquee-content h2 {
+    font-size: 24px;
+  }
+
+  .why-choose-us-serction {
+    padding: 90px 0 70px;
+  }
+  .why-choose-us-serction .medizet-section-title p {
+    width: 100%;
+  }
+  .choose_icon_bx {
+    display: block;
+  }
+  .choose_main_bx {
+    width: 293px;
+    padding: 50px 25px 50px;
+  }
+  .choose_main_bx.two {
+    padding: 40px 25px 40px;
+  }
+  .choose_icon {
+    margin-bottom: 12px;
+  }
+  .choose_right {
+    margin-left: 0;
+  }
+  .choose_thumb {
+    left: inherit;
+  }
+  .choose_list ul li i {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  .choose_list ul li {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+
+  .testimonial-section {
+    padding: 90px 0 246px 10px;
+  }
+  .testi-desc p {
+    font-size: 15px;
+}
+ .testi-single-box {
+    padding: 35px 20px 40px;
+    margin-right: 10px;
+}
+  .call-to_action_thumb {
+    display: none;
+  }
+  .call_to_actions_item {
+    margin-left: 0;
+    display: block;
+  }
+  .slider_nav_btn {
+    display: none;
+  }
+  .team-section {
+    padding: 226px 0 85px;
+  }
+  .team-single-box {
+    padding: 25px 20px 26px;
+  }
+  .team-content h2 {
+    font-size: 22px;
+  }
+  .counter-single-box.style_three {
+    justify-content: left;
+    margin-top: 20px;
+  }
+  .brand-section {
+    padding: 100px 0 100px;
+  }
+  .medizet-author {
+    display: block;
+  }
+  .author-icon {
+    margin-bottom: 12px;
+  }
+  .author-bio h3 {
+    font-size: 16px;
+  }
+  .choose_main_bx.two {
+    margin-top: 20px;
+  }
+  .about_experience {
+    margin-left: 0;
+    justify-content: left;
+  }
+  .about_experience h2.abut_count span {
+    top: 66%;
+  }
+  
+  .row.call_action_bg {
+    padding: 35px 12px 41px 10px;
+  }
+  .call_content h3 {
+    font-size: 25px;
+    margin: 0 0 10px;
+  }
+  .call_content p {
+    font-size: 17px;
+  }
+  .subscribe-content {
+    display: block;
+  }
+  .subscribe-title h1 {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 10px 0 0;
+  }
+  .call_btn a {
+    height: 130px;
+    width: 130px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .contact-form-box {
+    padding: 50px 15px 61px;
+  }
+  .appoinment-section .medizet-section-title h1 {
+    font-size: 25px;
+  }
+  
+  .blog-section {
+    padding: 90px 0 43px;
+  }
+  .blog-title h2 a {
+    font-size: 19px;
+    line-height: 29px;
+}
+  .blog-section .medizet-btn {
+    text-align: left !important;
+    margin-top: 20px;
+  }
+  .medizet-btn {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .footer-bottom_text.text-right {
+    text-align: left !important;
+    margin-top: 15px;
+  }
+  .footer_widget_des p {
+    font-size: 17px;
+    line-height: 27px;
+}
+  
+
+/* Start Home Two Css */
+
+.hero-section.style_twos {
+  height: 615px;
+}
+.counter-hero_bx {
+  display: none;
+}
+.hero-thumb_img {
+  display: none;
+}
+.doctors_shape {
+  display: none;
+}
+.hero-contents {
+  margin-top: 92px;
+}
+.hero-contents h1 {
+  font-size: 39px;
+  line-height: 42px;
+}
+
+.pt-173 {
+  padding-top: 60px;
+}
+.madicla-content {
+  overflow: hidden;
+}
+.madicla-content p {
+  font-size: 16px;
+  width: 100%;
+  color: #fff;
+}
+
+.skill_section {
+  padding: 85px 0 0;
+}
+.medizet-section-title.skill_title {
+  margin-bottom: 20px;
+}
+.medizet-section-title.skill_title h1 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.skil_item {
+  display: block;
+  margin-bottom: 30px;
+}
+.skil_thumb img {
+  width: 100%;
+}
+.skill-icon {
+  margin-top: 20px;
+}
+
+.about_section.style_two {
+  padding: 70px 0 90px;
+}
+.about-thumb.style_two {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.about_section.style_three {
+  padding: 100px 0 75px;
+}
+
+.testimonial-section.style_two {
+  padding: 100px 0 247px;
+}
+.testimonial_thumb {
+  margin-bottom: 30px;
+}
+.testi-single-box.style_two .user-info {
+  padding-top: 6px;
+}
+.testi-single-box.style_two {
+  padding: 46px 0 35px 20px;
+}
+.testi-single-box.style_two .testi-desc p {
+  font-size: 15px;
+  line-height: 25px;
+}
+.service-thumb {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /******************************
+  <--Inner Page Section-->  
+  ********************************/
+  .breatcome-section {
+    background-size: cover;
+    margin-top: 0;
+  }
+
+  .breatcome-content h1 {
+    font-size: 30px;
+  }
+
+  /* About Section */
+  .style-3.about-section .about-thumb img {
+    padding: 0;
+  }
+
+  .style-3.about-section .about-thumb {
+    padding-bottom: 30px;
+  }
+
+  .style-3 .counter-right-side {
+    width: auto;
+    text-align: center;
+  }
+
+  .style-3 .odometer-wrapper.counter-box-title h1 {
+    font-size: 30px;
+  }
+
+  .style-3 .odometer-wrapper.counter-box-title {
+    display: inline-block;
+  }
+
+  .mission-vission-single-box {
+    padding: 35px 25px 15px;
+  }
+
+  .m_v-ssion-desc p {
+    font-size: 16px;
+  }
+
+  /* Testimonial */
+  .style-2 .testi-single-box {
+    padding: 35px 30px 20px;
+  }
+
+  .style-2 .testi-quote2 {
+    right: 12px;
+  }
+
+  .style-2 .testi-quote2 img {
+    width: 78%;
+  }
+
+  .style-2 .testi-thumb img {
+    width: 100%;
+  }
+
+  /* Service Inner Page */
+
+  .single-services-box {
+    padding: 38px 25px 32px;
+  }
+
+  .services-title h3 {
+    font-size: 18px;
+  }
+
+  .services-desc p {
+    font-size: 16px;
+  }
+
+  /* Details Page  */
+
+.medizet-title h2 {
+  font-size: 18px;
+}
+
+  .medizet-thumb img {
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .medizet-single-box {
+    padding: 35px 25px 20px;
+  }
+  .medizet-icons {
+    float: inherit;
+    margin-bottom: 30px;
+  }
+
+  .medizet-content h3 {
+    font-size: 17px;
+  }
+
+  .medizet-content p {
+    font-size: 16px;
+  }
+
+  .medizet-blog {
+    padding: 30px 0 14px;
+    display: inherit;
+  }
+  .blog-desc p {
+    font-size: 17px;
+  }
+  .blog-icon {
+    padding-right: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+
+  .accordion li a {
+    font-size: 15px;
+    padding: 16px 50px 15px 12px;
+    line-height: 18px;
+}
+
+  .accordion li a span {
+    font-size: 18px;
+    padding: 0 7px 0 0px;
+  }
+
+  .accordion li p {
+    font-size: 15px;
+    padding: 24px 5px 10px 5px;
+  }
+
+  .medizet-category-box {
+    padding: 20px 25px 24px;
+  }
+
+  /* Error Page */
+  .error-service-content {
+    height: 630px;
+  }
+  .error-section {
+    padding: 90px 0px 90px;
+  }
+
+  .error-content h1 {
+    font-size: 72px;
+    width: 220px;
+    height: 169px;
+    line-height: 169px;
+  }
+
+  /* Appoinment Section */
+
+  .style-1 .testi-single-box {
+    margin-bottom: 35px;
+    padding: 60px 30px 60px;
+  }
+
+  
+
+  .medizet-section.style-2 .blog-title h2 a {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .medizet-category-box.responsive {
+    padding: 20px 13px 24px 25px;
+    margin-bottom: 20px;
+  }
+
+  .category-content {
+    padding-left: 10px;
+  }
+
+  .post-thumb a img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .category-content h4 a {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .category-content h6 {
+    font-size: 13px;
+  }
+
+  .medizet-thumb img {
+    width: 100%;
+  }
+
+  .post-comment {
+    display: inherit;
+  }
+
+  .post-content {
+    margin: 25px 0 0px 30px;
+  }
+
+  p.posts-reply {
+    font-size: 15px;
+  }
+
+  .post-comment2 {
+    display: inherit;
+    margin-left: 0;
+  }
+
+  .column .breatcome-content h1 {
+    font-size: 26px;
+  }
+
+  .custom-scroll {
+    padding: 0 5px 0 0;
+  }
+
+  iframe {
+    width: 320px;
+  }
+
+  .accordion2 li a {
+    font-size: 16px;
+    padding: 16px 0px 16px 10px;
+  }
+
+  /* Project Section inner Page */
+
+  .project-content {
+    width: 100%;
+  }
+
+  .project-content h2 {
+    font-size: 18px;
+  }
+
+  .project-icon a {
+    top: 20px;
+  }
+
+  .details .breatcome-content h1 {
+    font-size: 27px;
+  }
+
+  .doctor-content h3 {
+    font-size: 13px;
+}
+
+.team-details {
+  padding: 15px;
+}
+
+  .team-details-content {
+    padding: 0 0 0 0px;
+  }
+
+  .prossess-ber-plugin span {
+    font-size: 16px;
+  }
+
+  .barfiller .tip {
+    font-size: 16px;
+  }
+
+  .head-title h3 {
+    font-size: 26px;
+  }
+  .contact-form-box.inner_page {
+    padding: 26px 15px 28px;
+}
+.team-details-area .medizet-section-title h1 {
+  font-size: 26px;
+  margin-bottom: 19px;
+}
+  /* Testimonial inner Page */
+
+  .upp.style-2 .testi-single-box {
+    padding: 58px 25px 38px;
+  }
+
+  .upp.style-2 .testi-bg .user-info {
+    padding: 0;
+    margin: 30px 12px 0 0;
+  }
+
+  .upp.style-2 .user-info {
+    padding: 25px 15px 25px 1px;
+    margin: 0px 10px 0 0;
+  }
+
+  .testimonial-section.style-2.upp .user-name h4 {
+    font-size: 17px;
+  }
+
+  .testimonial-section.style-2.upp .people-pic img {
+    margin-right: 0;
+    width: 62%;
+  }
+
+  .upp.style-2 .user-name h6 {
+    font-size: 15px;
+  }
+
+  .upp.style-2 .testi-desc p {
+    font-size: 16px;
+  }
+
+  .upp.style-2 .testi-bg .testi-single-box {
+    padding: 5px 25px 40px;
+  }
+
+  .upp.style-2 .testi-quote2 {
+    right: 3px;
+    bottom: 42px;
+  }
+
+  ul.medizet-service li {
+    padding: 8px 12px 8px;
+    height: 44px;
+  }
+  .form-box select {
+    margin-bottom: 20px;
+  }
+  .team-details-area {
+    padding: 100px 0 100px;
+  }
+  .team-details-title h2 {
+    font-size: 20px;
+  }
+  .team-detail-title h2 {
+    font-size: 29px;
+  }
+  .prossess-ber-plugin {
+    padding: 0;
+  }
+  .style-2.contact-with-medizet {
+    top: 0;
+  }
+  .accordion-content h2 {
+    font-size: 20px;
+  }
+  .faq-section .tab_container {
+    padding: 0 0 60px;
+}
+.upp.style-2.accordion li a {
+  font-size: 16px;
+}
+.blog-single-box.blog_lists {
+  display: block;
+}
+ul.list_category li a {
+  font-size: 10px;
+  padding: 5px 12px;
+}
+.blog-details_itm {
+  padding: 20px 10px 0;
+}
+.blog-content-text.text-left h2 {
+  font-size: 19px;
+  line-height: 33px;
+}
+.blog-meta span.left {
+  padding-left: 0;
+}
+.blog-meta span {
+  padding-left: 6px;
+}
+.blog-meta span:last-child {
+  padding-left: 6px;
+}
+.blog-meta span.left {
+  padding-left: 0;
+}
+.blog-meta span {
+  font-size: 13px;
+}
+.blog-meta span.left:before{
+  display: none;
+}
+p.qouik {
+  margin-right: 0;
+}
+.blog-details-single-items .blog-icon {
+  float: inherit;
+}
+.blog-details-single-items {
+  display: block;
+  padding: 10px 13px 10px;
+}
+h3.blog-dtls-title3 {
+  font-size: 20px;
+}
+p.desc-style1 {
+  margin-right: 0;
+}
+ul.blog-details-list li {
+  margin-bottom: 9px;
+  font-size: 12px;
+}
+.blog-details-thumb {
+  margin-bottom: 30px;
+}
+h3.blog-dtls-title3 {
+  font-size: 17px;
+}
+.blog-social-tags {
+  display: none;
+}
+.details_rcnt .category-content h4 a {
+  font-size: 14px;
+  line-height: 18px;
+}
+.details_rcnt {
+  padding: 25px 21px 1px;
+  margin-top: 20px;
+}
+.comment-bx {
+  padding: 20px 10px 22px;
+}
+.blog-details-comment-thumb {
+  float: inherit;
+  margin-bottom: 10px;
+}
+.blog-details-comment.reply {
+  margin-left: 0;
+}
+.contact-service-box:before {
+  display: none;
+}
+.about_list_item {
+  padding: 24px 0 25px 15px;
+}
+.author-bio h3 {
+  font-size: 14px;
+}
+.about-service-list ul li {
+  font-size: 13px;
+  line-height: 25px;
+}
+.service-section.style-3 .medizet-section-title.home-2 {
+  padding-left: 0;
+}
+.team-single-boxs .team-btn {
+  display: none;
+}
+
+.testimonial-section.style_three {
+  padding: 90px 0 100px 35px;
+}
+.pricing-section {
+  padding: 85px 0 70px;
+}
+.pricing-single-item {
+  padding: 26px 25px 36px;
+}
+.faq-section.style_upper {
+  padding: 85px 0 0;
+}
+.faq-section.upp {
+  padding: 0 0 80px;
+}
+.medizet-section.blg-list {
+  padding: 100px 0 70px;
+}
+.blog-single-box.style_two {
+  padding: 25px 15px 15px;
+}
+.blog-single-box.style_two .meta_blog ul li {
+  font-size: 14px;
+}
+.head-title h2 {
+  font-size: 18px;
+}
+.about_icon_title h3 {
+  font-size: 18px;
+  line-height: 25px;
+}
+.footer-thumb1 {
+    display: none;
+}
+.footer-thumb2 {
+    display: none;
+}
+  /*  */
+}

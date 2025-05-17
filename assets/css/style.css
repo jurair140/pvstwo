@@ -1,0 +1,5970 @@
+/*===============================================
+Template Name: Medizet - Health Care Doctor HTML5 Template
+Author:  https://themeforest.net/user/thame-master
+Description: Description
+Version: 1.0.0
+Text Domain: medizet
+Tags: 	appointment booking, clinic, dentist, doctor, doctor appointment, doctor booking, health, health template, healthcare, hospital, medical, medical appointment, medical booking, medical template.
+================================================*/
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. Medizet Topbar Area Css
+02. Medizet Nav Menu Area Css 
+03. Medizet Hero Section Css
+04. Medizet Section Title Css
+05. Medizet Counter Section css
+06. Medizet Feature Section Css
+07. Medizet About Section Css
+08. Medizet Service Section Css
+09. Medizet Why Choose Us Section Css
+10. Medizet Testimonial Section Css
+11. Medizet Call to action Section Css
+12. Medizet Team Section Css
+13. Medizet Appoinment Section Css
+14. Medizet Brand Section Css
+15. Medizet  Blog Section Css
+16. Medizet Subcribe Section Css
+17. Medizet Footer Section Css
+18. Medizet Pricing Section Style Two
+19. Medizet Services Pages Section
+20. Medizet Pagination btn
+21. Medizet Blog Details Css
+22. Medizet About Inner Page Secttion
+23. Medizet Mission & Vission Section
+24. Medizet Project Section
+25. Medizet Scroll Up Css 
+26. Medizet Animation Dance
+27. Medizet Contact  Page CSS
+30. Medizet Loader Css
+=======================*/
+
+/*================================
+<--  Medizet Topbar Area Css -->
+==================================*/
+
+.topber_area {
+  background-color: #2a236c;
+  padding: 11px 35px 11px 37px;
+}
+.header-address-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+.header-address-info p span i {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #f46723;
+}
+span.right_info {
+  margin-left: 35px;
+}
+.header-top-menu {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.social_follow p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "DM Sans";
+  margin: 0 15px 0 0;
+}
+.header-top-menu ul li {
+  display: inline-block;
+}
+.header-top-menu ul li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 15px;
+}
+
+/*================================
+<--  Medizet Nav Menu Area Css -->
+==================================*/
+
+.meedy_nav_manu {
+  transition: 0.5s;
+  z-index: 2;
+  position: relative;
+  padding: 20px 45px 20px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: -100px;
+}
+
+.meedy_nav_manu.style_two {
+  background-color: rgba(163, 163, 185, 0.492) !important;
+  backdrop-filter: blur(5px);
+  padding: 5px 0;
+}
+
+
+.sticky {
+  left: 0;
+  margin: auto;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14901960784313725);
+  background: var(--primary-color) !important;
+  transition: 0.5s !important;
+  z-index: 922;
+  -webkit-animation: 300ms running fadeInDown;
+  animation: 500ms running fadeInUp;
+  animation-name: slideInDown;
+}
+
+.sticky .meedy_menu > ul > li > a {
+  color: var(--light);
+}
+
+.sticky .search-box-btn i {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.sticky .medizet-hover-btn {
+  background-color: #fff;
+}
+.sticky .header-button a:hover {
+  color: var(--secondary-color);
+}
+.sticky .header-button a:hover img {
+  filter: brightness(0);
+}
+
+/* medizet Menu Css*/
+nav.meedy_menu {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.meedy_menu ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.meedy_menu > ul > li {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.meedy_menu > ul > li > a {
+  display: block;
+  margin: 0 17px;
+  transition: 0.5s;
+  padding: 17px 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2a236c;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+.meedy_menu > ul > li > a:before {
+  border-radius: 50%;
+  position: absolute;
+  content: "";
+  left: -13px;
+  bottom: 27px;
+  height: 6px;
+  width: 6px;
+  background: var(--secondary-color);
+  opacity: 0;
+  transition: 0.5s;
+}
+.meedy_menu > ul > li > a:hover:before {
+  opacity: 1;
+}
+
+.meedy_nav_manu.style-2 .meedy_menu > ul > li > a {
+  color: #2a236c;
+}
+.meedy_nav_manu.style-2 .meedy_menu > ul > li > a:hover {
+  color: #f46723;
+}
+.meedy_menu > ul > li > a:hover {
+  color: #f46723;
+}
+
+a.mdy-hover {
+  position: relative;
+}
+.meedy_menu > ul > li > a > i {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+/*medizet Right Side*/
+
+.medizet-right-side {
+  display: flex;
+  float: right;
+  align-items: center;
+}
+.header-button a {
+  padding: 14px 25px;
+  background: #f46723;
+  border-radius: 30px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  transition: 0.5s;
+  margin: 0 9px 0 14px;
+}
+.header-button a:hover {
+  color: #fff;
+}
+.header-button a img {
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+.header-button a:hover .medizet-hover-btn {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/*** Sub Menu Style 
+==========================***/
+
+.meedy_menu ul .sub-menu {
+  position: absolute;
+  left: 0;
+  top: 130%;
+  width: 217px;
+  text-align: left;
+  background: #fff;
+  margin: 0;
+  z-index: 1;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  visibility: hidden;
+  border-top: 2px solid #f46723;
+  opacity: 0;
+}
+.meedy_menu ul li:hover > .sub-menu {
+  visibility: visible;
+  top: 100%;
+  opacity: 1;
+}
+.meedy_menu ul .sub-menu li {
+  position: relative;
+}
+.meedy_menu ul .sub-menu li a {
+  display: block;
+  padding: 12px 20px;
+  margin: 0;
+  line-height: 1.3;
+  letter-spacing: normal;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.5s;
+  visibility: inherit !important;
+  color: var(--primary-color) !important;
+  position: relative;
+  z-index: 1;
+}
+
+.meedy_menu ul .sub-menu li a:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  background: var(--secondary-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.meedy_menu ul .sub-menu li a:hover:before {
+  height: 100%;
+  top: 0;
+}
+
+.meedy_menu ul .sub-menu li:hover > a,
+.meedy_menu ul .sub-menu .sub-menu li:hover > a,
+.meedy_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
+.meedy_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
+  background: #f46723;
+  color: #fff !important;
+}
+
+/* medy_nav_menu Style Two */
+
+.meedy_nav_manu.style_two {
+  background: #092b5e00;
+  border-bottom: 1px solid #ffffff1c;
+  backdrop-filter: blur(3.3px);
+}
+.meedy_nav_manu.style_two .meedy_menu > ul > li > a {
+  color: #fff;
+}
+.meedy_nav_manu.style_two .meedy_menu > ul > li > a:before {
+  background: #fff;
+}
+/* meeedy nab manu style three */
+.meedy_nav_manu.style_three {
+  background-color: #e6f1ff;
+}
+/*
+<!-- ============================================================== -->
+<!-- Medizet Hero Section Css -->
+<!-- ============================================================== -->*/
+
+.hero-section {
+  height: 900px;
+  position: relative;
+  z-index: 1;
+}
+.hero_slider_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.swiper-slide-active .hero_slider_img {
+  animation: zoomAnimation 20s infinite;
+}
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero-content {
+  margin-top: 82px;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.hero-content h4 {
+  margin: 0 0 11px;
+  font-size: 18px;
+  color: #2a236c;
+  font-weight: 400;
+  border: 1px solid #007eff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 22px;
+}
+.hero-content h4 i {
+  display: inline-block;
+  font-size: 14px;
+  color: #007eff;
+  position: relative;
+  top: -1px;
+  margin-right: 4px;
+}
+.hero-content h1 {
+  font-size: 90px;
+  line-height: 90px;
+  color: #2a236c;
+  font-weight: 800;
+}
+.hero-content h1.hero_title {
+  font-weight: 500;
+}
+
+.hero-content h1 span {
+  color: #007eff;
+  display: inline-block;
+}
+.hero-content p {
+  font-size: 20px;
+  color: #2a236c;
+  font-weight: 400;
+  margin: 34px 0 42px;
+}
+.hero-content p img {
+  margin-right: 12px;
+}
+
+.swiper-slide-active .hero-content {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* medizet Btn */
+
+.medizet-btn a {
+  padding: 15px 34px;
+  display: inline-block;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  background-color: #f46723;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+.medizet-btn a:hover .medizet-hover-btn {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.medizet-btn a i {
+  padding-left: 7px;
+  position: relative;
+  top: 3px;
+  transform: rotate(-45deg);
+  display: inline-block;
+  font-size: 14px;
+}
+/* Box-hover */
+
+.medizet-hover-btn {
+  background-color: var(--primary-color);
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 25%;
+  z-index: -1;
+}
+
+.hover-btn {
+  left: 0;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+  border-radius: 30px 0 0px 30px;
+}
+.hover-btn2 {
+  left: 25%;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+}
+
+.hover-btn3 {
+  left: 50%;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+}
+
+.hover-btn4 {
+  left: 75%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  border-radius: 0 30px 30px 0;
+}
+
+.medizet-btn.button_two a {
+  position: relative;
+  z-index: 1;
+}
+.medizet-btn.button_two a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background: var(--secondary-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+.medizet-btn.button_two a:hover:before {
+  height: 100%;
+  top: 0;
+}
+
+/* hero thumb */
+
+.hero-thumb {
+  position: relative;
+  z-index: 1;
+  margin-top: 293px;
+  margin-left: 65px;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
+  opacity: 0;
+}
+.hero-thumb.style_two {
+  margin-left: -20px;
+}
+.swiper-slide-active .hero-thumb {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slider-dots.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: absolute;
+  top: 50%;
+  left: 56px;
+}
+.slider-dots .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 50%;
+  opacity: 1;
+  background: #fff !important;
+  margin-bottom: 20px !important;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.slider-dots .swiper-pagination-bullet-active:before {
+  position: absolute;
+  content: "";
+  left: -7px;
+  top: -8px;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #fff;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+/* hero setion style two */
+
+.hero-section.style_twos {
+  background: url(../images/home-two/banner_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  height: 950px;
+  overflow: hidden;
+}
+.hero-contents {
+  margin-top: 155px;
+}
+.hero-contents h1 {
+  font-size: 100px;
+  line-height: 100px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "Albert Sans";
+}
+
+/* madical box */
+
+.madical-icon {
+  float: left;
+  margin-right: 22px;
+  position: relative;
+  top: 4px;
+}
+.madicla-content h4 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Albert Sans";
+  margin: 0 0 7px;
+}
+.madicla-content p {
+  font-size: 17px;
+  color: #97a9bf;
+  font-weight: 400;
+  font-family: "DM Sans";
+  width: 22%;
+  overflow: hidden;
+}
+.hero-thumb_img {
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+  bottom: -85px;
+}
+
+.doctors_shape {
+  position: absolute;
+  right: 16%;
+  top: 32%;
+  z-index: -1;
+}
+
+/* counter hero bx */
+
+.counter-hero_bx {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+  width: 448px;
+  border-radius: 20px 20px 0 0;
+  background-color: #2a236c;
+  padding: 35px 40px 25px;
+}
+.counter-hero_bx .counter-single-box {
+  position: relative;
+  z-index: 1;
+}
+.counter_icon {
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+.counter-hero_bx .odometer-wrapper {
+  padding-bottom: 27px;
+  border-bottom: 0;
+}
+.counter-hero_bx .odometer-wrapper.counter-box-title h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Albert Sans";
+}
+span.counter_style {
+  color: #fff;
+  position: relative;
+  top: -18px;
+  font-size: 27px;
+  font-weight: 700;
+}
+.counter-hero_bx .counter-desc p {
+  display: inline-block;
+  padding: 0;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Counter Section Css -->
+<!-- ============================================================== -->*/
+.counter_section {
+  background: url(../images/main-home/counter_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 40px 0 39px;
+}
+.counter_item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.counter_main_title h2 {
+  font-size: 34px;
+  line-height: 40px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0;
+}
+/* counter box */
+.odometer-wrapper {
+  border-bottom: 2px solid #ffffff6b;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.odometer-wrapper.counter-box-title h1 {
+  display: inline-block;
+  margin: 0;
+  font-family: "Albert Sans";
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.counter-desc p {
+  display: inline-block;
+  padding: 0;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "DM Sans";
+}
+
+/* counter box style three */
+.counter-single-box.style_three {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: right;
+}
+.counter-single-box.style_three .odometer-wrapper.counter-box-title h1 {
+  margin: 0;
+  font-family: "Albert Sans";
+  font-size: 60px;
+  color: #2a236c;
+  font-weight: 700;
+}
+.counter-single-box.style_three .odometer-wrapper {
+  border-bottom: 0;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+}
+.counter-single-box.style_three .counter-desc p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #2a236c;
+  font-weight: 500;
+  font-family: "DM Sans";
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Feature Section Css-->
+<!-- ============================================================== -->*/
+
+.feature-serction {
+  padding: 120px 0 120px;
+  position: relative;
+  background: url(../images/main-home/abut_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.feature-single-box {
+  padding: 45px 40px 28px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+.feature-single-box:hover {
+  border: 2px solid var(--secondary-color);
+}
+.feature-single-box .feature_inner {
+  text-align: center;
+  padding: 0 16px 0;
+}
+.feature-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0 32px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 20px;
+}
+.head-title h2 {
+  margin: 0;
+  transition: 0.5s;
+  font-size: 24px;
+  color: #2a236c;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.medizet_icon a {
+  display: inline-block;
+  color: var(--secondary-color);
+  font-size: 20px;
+  transform: rotate(-45deg);
+}
+.feature-single-box .feature_inner {
+  text-align: center;
+}
+.feature-content p {
+  transition: 0.5s;
+}
+.feature_count {
+  margin: 0 0 10px;
+}
+.feature_count h4 {
+  transition: 0.5s;
+  margin: 0;
+  font-size: 30px;
+  color: #2a236c;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.feature_count span {
+  font-size: 15px;
+  position: relative;
+  top: -6px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+/* style_two */
+.feature_icon.style_two {
+  margin: 40px 0 29px;
+}
+.feature_icon.style_two a {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  background: #fff;
+  border-radius: 10px;
+}
+.img-round{
+  border-radius: 10%;
+}
+
+.bx_2 .medizet_icon a {
+  display: inline-block;
+  transform: rotate(0deg);
+  font-size: 14px;
+  color: #007eff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  text-transform: uppercase;
+  padding: 6px 28px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.feature-single-box:hover .head-title h2,
+.feature-single-box:hover .feature_count span,
+.feature-single-box:hover .feature-content p,
+.feature-single-box:hover .medizet_icon a,
+.feature-single-box:hover .feature_count h4 {
+  color: #fff;
+}
+
+/* feature single box 2 */
+
+.bx_2 .feature-head {
+  padding: 0px 0 26px;
+}
+.bx_2 .feature_count {
+  margin: 39px 0 12px;
+}
+.bx_2 .feature_count h4 {
+  font-size: 22px;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-family: "Albert Sans";
+}
+.feature-single-box.bx_3 {
+  padding: 45px 40px 50px;
+}
+.contacts_btn a {
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  background: var(--secondary-color);
+  padding: 6px 28px;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+.bx_3 .feature_icon {
+  margin: 40px 0 17px;
+}
+
+.bx_3:hover .contacts_btn a {
+  background: #fff;
+  color: var(--primary-color);
+}
+.bx_2:hover .medizet_icon a {
+  color: var(--primary-color);
+}
+
+/* Box-hover */
+
+.medizet-hover-box {
+  background-color: #f46723;
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 25%;
+  z-index: -1;
+}
+
+.hover-bx {
+  left: 0;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+  border-radius: 20px 0 0px 20px;
+}
+.hover-bx2 {
+  left: 25%;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+}
+
+.hover-bx3 {
+  left: 50%;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+}
+
+.hover-bx4 {
+  left: 75%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  border-radius: 0 20px 20px 0;
+}
+
+.feature-single-box:hover .medizet-hover-box {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet About Section Css-->
+<!-- ============================================================== -->*/
+
+.about_section {
+  background-color: #e6f1ff;
+  padding: 120px 0 120px;
+  position: relative;
+  z-index: 1;
+}
+.about-shahpe {
+  position: absolute;
+  right: 4%;
+  bottom: 8%;
+}
+/* About Left Side */
+
+.about-thumb {
+  position: relative;
+  z-index: 1;
+  margin-left: -122px;
+}
+.counter-right-side.style_two .counter-single-box {
+  position: absolute;
+  right: 56px;
+  top: 0;
+  width: 257px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 15px rgba(224, 222, 241, 0.2));
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #ffffff;
+  padding: 40px 30px 30px;
+  text-align: center;
+}
+.counter-right-side.style_two .odometer-wrapper {
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 37, 112, 0.10196078431372549);
+  margin-bottom: 22px;
+  padding-bottom: 10px;
+}
+.style_two .odometer-wrapper.counter-box-title h1 {
+  font-size: 64px;
+  color: #007eff;
+  font-weight: 600;
+}
+.style_two .counter-desc p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #2a236c;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+
+.about-service-list ul li {
+  display: block;
+  padding: 9px 25px 9px;
+  font-size: 16px;
+  color: #2a236c;
+  font-weight: 400;
+  font-family: "Albert Sans";
+  filter: drop-shadow(0px 10px 15px rgba(224, 222, 241, 0.2));
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #ffffff;
+  border-radius: 23px;
+  margin-bottom: 20px;
+}
+
+.about-service-list ul li i {
+  font-size: 18px;
+  color: var(--secondary-color);
+  display: inline-block;
+  padding-right: 9px;
+  top: 1px;
+  position: relative;
+}
+.author-icon {
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
+  border: 2px solid #007eff;
+  border-radius: 50%;
+  text-align: center;
+  color: #007eff;
+  flex-shrink: 0;
+}
+.author-icon i {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  line-height: 23px;
+  border: 2px solid;
+  border-radius: 50px;
+  color: #007eff;
+  font-size: 11px;
+}
+
+/* about experience */
+
+.about_experience {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 90px;
+}
+.about_experience h2.abut_count {
+  font-family: "Albert Sans";
+  font-size: 50px;
+  line-height: 26px;
+  color: #2a236c;
+  font-weight: 600;
+}
+.about_experience h2.abut_count span {
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+}
+ul.author-rating li {
+  font-size: 14px;
+  color: #ffa838;
+  display: inline-block;
+}
+.about_experience h3 {
+  font-size: 17px;
+  color: #65677a;
+  font-weight: 400;
+  font-family: "DM Sans";
+  margin: 2px 0 0;
+}
+
+/* medizet Author */
+
+.medizet-author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  gap: 20px;
+  border-bottom: 1px solid rgba(0, 37, 112, 0.10196078431372549);
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
+.author-bio h3 {
+  font-size: 18px;
+  line-height: 34px;
+  color: #041c33;
+  font-weight: 500;
+  margin: 0;
+}
+.author-bio span {
+  font-size: 17px;
+  color: #65677a;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+.feature-single-box:hover .medizet-hover-box {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* about setction style two */
+
+.about-thumb.style_two {
+  margin-left: -16px;
+}
+.about_shape {
+  position: absolute;
+  bottom: -9%;
+  right: 7%;
+  z-index: -1;
+}
+
+.about-icon-box {
+  border-radius: 20px;
+  filter: drop-shadow(0px 30px 30px rgba(175, 191, 211, 0.15));
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 27px 35px 27px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.about-icon-box:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  transition: 0.5s;
+  z-index: -1;
+  background: var(--secondary-color);
+  border-radius: 18px;
+}
+.about-icon-box:hover:before {
+  width: 100%;
+  left: 0;
+}
+.about-icon-box:hover {
+  border: 2px solid var(--secondary-color);
+}
+.about-icon-box .about_iocn img {
+  transition: 0.5s;
+}
+.about-icon-box:hover .about_iocn img {
+  filter: brightness(0) invert(1);
+}
+.about_icon_title h3 {
+  font-size: 22px;
+  line-height: 30px;
+  color: #2a236c;
+  font-weight: 600;
+  font-family: "Albert Sans";
+  margin: 0;
+  transition: 0.5s;
+}
+.about-icon-box:hover .about_icon_title h3 {
+  color: #fff;
+}
+.any_help p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #2a236c;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  margin-top: 10px;
+}
+.any_help a {
+  display: inline-block;
+  color: #007eff;
+  text-decoration: underline;
+}
+
+/* ***********************
+  Section Title
+************************* */
+
+.medizet-section-title h4 {
+  color: var(--secondary-color);
+  padding: 0 0 12px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.medizet-section-title h4 img {
+  margin-right: 10px;
+}
+.medizet-section-title h1 {
+  margin: 0;
+  font-size: 46px;
+  line-height: 54px;
+  color: #2a236c;
+  font-weight: 700;
+}
+.medizet-section-title p {
+  padding: 21px 0 18px;
+  font-size: 17px;
+  color: #65677a;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+.medizet-section-title.style_two h1 {
+  color: #fff;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Service Section Css -->
+<!-- ============================================================== -->*/
+
+.service-section {
+  padding: 105px 0 120px 305px;
+  background: #2a236c;
+}
+.service-section .container-fluid {
+  padding: 0;
+}
+
+.service-thumb {
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.service-thumb:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    0deg,
+    rgb(11 51 134) 0%,
+    rgb(11 51 134 / 79%) 20%,
+    rgba(11, 51, 133, 0) 55%,
+    rgba(11, 51, 133, 0) 100%
+  );
+  transition: 0.5s;
+}
+.service-thumb:hover:before {
+  opacity: 0;
+}
+.service-thumb:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 0%;
+  width: 100%;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    0deg,
+    rgb(0 125 255 / 80%) 0%,
+    rgb(0 112 234 / 82%) 20%,
+    rgba(0, 75, 174, 0) 55%,
+    rgba(0, 37, 111, 0) 100%
+  );
+  opacity: 0;
+  transition: 0.5s;
+}
+.service-thumb:hover:after {
+  height: 100%;
+  opacity: 1;
+}
+.service-content {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+  z-index: 2;
+}
+.service-content span {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  border-radius: 15px;
+  background-color: #f46723;
+  display: inline-block;
+  padding: 2px 23px;
+  transition: 0.5s;
+}
+.service-thumb:hover .service-content span {
+  color: #007eff;
+  background: #fff;
+}
+
+.service-content h3 a {
+  display: inline-block;
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Albert Sans";
+}
+.swiper_relative {
+  position: relative;
+  z-index: 1;
+  overflow: visible;
+}
+
+.slider_nav_btn {
+  position: absolute;
+  top: -123px;
+  right: 19%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.slider_nav_btn button.swiper-btn-next,
+.swiper-btn-prev {
+  outline: 0 !important;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  transition: 0.5s;
+  margin-bottom: 12px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: rgba(0, 103, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.slider_nav_btn button.swiper-btn-next:hover,
+.swiper-btn-prev:hover {
+  background: var(--secondary-color) !important;
+}
+.slider_nav_btn button:focus {
+  outline-color: 0 !important;
+  border: 0 !important;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Marquee Section Css -->
+<!-- ============================================================== -->*/
+
+.marquee-section {
+  background: var(--secondary-color);
+  padding: 48px 0 53px;
+}
+
+.marquee {
+  display: -webkit-box;
+  display: flex;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.marquee-single-box {
+  flex-shrink: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  -webkit-animation: scroll 50s linear infinite;
+  animation: scroll 50s linear infinite;
+}
+
+.marquee-content h2 {
+  display: inline-block;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.marquee-content h2 span img {
+  margin: -6px 30px 0 20px;
+  display: inline-block;
+  -webkit-animation: rotateme 8s linear infinite;
+  animation: rotateme 8s linear infinite;
+}
+
+/* Key Frames */
+
+.scroll {
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 1rem));
+  }
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Why Choose Us Section Css -->
+<!-- ============================================================== -->*/
+.why-choose-us-serction {
+  padding: 120px 97px 90px;
+  background: url(../images/main-home/choose_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.why-choose-us-serction .medizet-section-title p {
+  padding: 11px 0 11px;
+  width: 85%;
+}
+.choose_thumb {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  z-index: -1;
+}
+/* choose list */
+
+.choose_list ul li {
+  font-size: 17px;
+  color: #2a236c;
+  font-weight: 400;
+  font-family: "Albert Sans";
+  margin-bottom: 12px;
+}
+.choose_list ul li i {
+  color: #f46723;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.choose_right {
+  margin-left: 58px;
+}
+.choose_main_bx.two {
+  padding: 40px 40px 40px;
+}
+.choose_main_bx {
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 15px rgba(224, 222, 241, 0.2));
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid #ffffff;
+  padding: 50px 40px 50px;
+  width: 490px;
+  margin-bottom: 30px;
+}
+.choose_counter {
+  position: relative;
+  z-index: 1;
+  margin-right: 15px;
+}
+.choose_counter:before {
+  position: absolute;
+  right: -17px;
+  bottom: 14px;
+  width: 1px;
+  height: 35px;
+  background-color: rgba(0, 37, 112, 0.2);
+  content: "";
+  z-index: -1;
+}
+.choose_counter h1 {
+  font-size: 50px;
+  color: #2a236c;
+  font-weight: 600;
+  margin: 0;
+}
+.choose_counter h1 span {
+  font-size: 24px;
+  position: relative;
+  top: -19px;
+}
+.choose_icon_bx {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 37, 112, 0.10196078431372549);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.choose_icon_bx:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.choose_title h3 {
+  font-size: 20px;
+  color: #2a236c;
+  font-weight: 500;
+  margin: 0;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Testimonial Section Css -->
+<!-- ============================================================== -->*/
+
+.testimonial-section {
+  padding: 105px 0 270px 305px;
+  background: url(../images/main-home/testi_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.testimonial-section .container-fluid {
+  padding: 0;
+}
+
+.testi-single-box {
+  border-radius: 10px;
+  background-color: #052f84;
+  padding: 44px 40px 50px;
+  position: relative;
+  z-index: 1;
+}
+.testi-desc p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff73;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+.testi-content span {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+ul.testi-rating li {
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  color: #ffba00;
+  padding: 2px 0 21px;
+  margin-right: 5px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14901960784313725);
+  margin-top: 32px;
+}
+.people-pic img {
+  width: auto;
+  margin-right: 20px;
+}
+.user-name h4 {
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.user-name h6 {
+  margin: 8px 0 0;
+  font-size: 17px;
+  color: #ffffff99;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+.testi-quote {
+  position: absolute;
+  bottom: 63px;
+  right: 40px;
+}
+
+/* Testimonial section style two */
+
+.testimonial-section.style_two {
+  background: #00256f;
+  padding: 120px 0 270px;
+}
+
+.testimonial_thumb img {
+  width: 100%;
+}
+.testi-single-box.style_two {
+  background: url(../images/home-two/testi-shape.png);
+  border: 2px solid #ffffff7d;
+  border-radius: 22px;
+  padding: 54px 0 56px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testi-single-box.style_two .testi-quote {
+  position: inherit;
+  margin-bottom: 35px;
+}
+.testi-single-box.style_two ul.testi-rating li {
+  padding: 2px 0 16px;
+}
+.testi-single-box.style_two .testi-desc p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Albert Sans";
+}
+.testi-single-box.style_two .user-info {
+  padding-top: 35px;
+  border-top: 0;
+  margin-top: 0;
+}
+
+.testimonial-section.style_three {
+  padding: 105px 0 120px 305px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Call to action Section Css -->
+<!-- ============================================================== -->*/
+
+.row.call_action_bg {
+  background: url(../images/main-home/appointment_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  padding: 73px 56px 62px 80px;
+  margin-top: -148px;
+  border-radius: 20px;
+}
+.call-to_action_thumb {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+}
+.call_to_actions_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -30px;
+}
+
+.call_content h3 {
+  font-size: 46px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0;
+}
+.call_content p {
+  font-size: 20px;
+  color: #fefefe;
+  font-weight: 400;
+  margin: 12px 0 0;
+}
+
+.call_btn a {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: #ffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: all 0.6s;
+}
+.call_btn a:hover {
+  color: #fff;
+}
+.call_btn a:before {
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: -1;
+  background: var(--primary-color);
+  transition: 0.5s;
+}
+.call_btn a:hover:before {
+  width: 100%;
+}
+.call_btn a i {
+  display: inline-block;
+  transform: rotate(-45deg);
+  font-size: 21px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Team Section Css -->
+<!-- ============================================================== -->*/
+.team-section {
+  padding: 243px 0 105px;
+  position: relative;
+  background: #e6f1ff;
+  margin-top: -137px;
+}
+
+.team-single-box {
+  padding: 30px 30px 32px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.team-single-box::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  z-index: 2;
+  opacity: 0;
+  border-top: 2px solid var(--secondary-color);
+  border-left: 2px solid var(--secondary-color);
+  transition: all linear 0.5s;
+}
+
+.team-single-box::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 0;
+  height: 0;
+  z-index: 2;
+  opacity: 0;
+  border-bottom: 2px solid var(--secondary-color);
+  border-right: 2px solid var(--secondary-color);
+  transition: all linear 0.5s;
+}
+
+.team-single-box:hover:before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.team-single-box:hover:after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.team-thumb {
+  position: relative;
+  z-index: 21;
+}
+
+.team-thumb img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.team-thumb:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  transition: 0.5s;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 125, 255, 0.8999999999999999) 0%,
+    rgba(0, 125, 255, 0.9999999999999999) 20%,
+    rgba(0, 125, 255, 0) 50%,
+    rgba(0, 125, 255, 0) 100%
+  );
+}
+
+.social-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.social-icon ul li {
+  display: inline-block;
+  padding-right: 9px;
+  list-style: none;
+}
+
+.social-icon ul li i {
+  width: 42px;
+  line-height: 42px;
+  height: 42px;
+  border-radius: 21px;
+  background-color: #ffffff;
+  color: var(--primary-color);
+  transition: 0.5s;
+}
+
+.team-thumb img {
+  border-radius: 25px;
+}
+
+.team-content h5 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 26px 0 0;
+}
+
+.team-content h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.team-single-box:hover .social-icon {
+  bottom: 35px;
+  opacity: 1;
+}
+
+.team-single-box:hover .team-thumb:after {
+  height: 100%;
+}
+
+/* Swiper */
+.swiper.style-2.team {
+  padding: 9px 0 10px;
+}
+.team-section .swiper {
+  padding-bottom: 80px;
+}
+.style-2 .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.style-2 .swiper-pagination-bullet {
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 11px)
+  ) !important;
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 11px)
+  ) !important;
+}
+
+/* Swiper Active Hover */
+
+.swiper-slide.swiper-slide-active .team-single-box .team-thumb:after {
+  height: 100%;
+}
+
+.swiper-slide.swiper-slide-active .team-single-box::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.swiper-slide.swiper-slide-active .team-single-box::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.swiper-slide.swiper-slide-active .team-single-box .social-icon {
+  bottom: 35px;
+  opacity: 1;
+}
+
+/* Team Section Style Two */
+
+.team-section.style_two {
+  padding: 105px 0 90px;
+  margin-top: 0;
+}
+.team-section.style_two .team-single-box {
+  margin-bottom: 30px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Appoinment Section Css -->
+<!-- ============================================================== -->*/
+
+.appoinment-section {
+  padding: 120px 0 0;
+  position: relative;
+  background: url(../images/main-home/contanc_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+.contact_shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.appoinment-section .medizet-section-title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Albert Sans";
+  margin-bottom: 30px;
+}
+.contact-form-box {
+  padding: 69px 50px 80px;
+  backdrop-filter: blur(8.8px);
+  border-radius: 10px 10px 0 0;
+  background-color: rgba(255, 255, 255, 0.10196078431372549);
+  border: 2px solid #ffffff1c;
+}
+.form-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 25px;
+  outline: 0;
+  display: inline-block;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "DM Sans";
+  height: 60px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.form-box input::placeholder {
+  font-size: 17px;
+  color: #ffffffbb;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+.form-box input:focus,
+button:focus {
+  outline-color: transparent;
+}
+
+.form-box select {
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  color: #ffffffbb;
+  font-weight: 400;
+  font-family: "DM Sans";
+  height: 60px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.form-box select option {
+  color: var(--primary-color);
+}
+
+.form-box textarea {
+  height: 170px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  padding: 15px 25px;
+  color: #ffff;
+  outline: 0;
+}
+.form-box textarea::placeholder {
+  font-size: 17px;
+  color: #ffffffbb;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+/* Submit Button */
+
+.submit-button {
+  margin-top: 25px;
+}
+button.submit-btn {
+  padding: 13px 38px;
+  display: inline-block;
+  border-radius: 32px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  background-color: #f46723;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  border: none;
+}
+button.submit-btn:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background: var(--secondary-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+button.submit-btn:hover:before {
+  height: 100%;
+  top: 0;
+}
+button.submit-btn i {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  transform: rotate(-45deg);
+  margin-left: 4px;
+}
+button.submit-btn input:focus,
+button:focus {
+  outline-color: 0 !important;
+  border: none !important;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Start medizet Brand Section Css-->
+<!-- ============================================================== -->*/
+
+.brand-section {
+  padding: 120px 0 120px;
+  text-align: center;
+  background: #eef7ff;
+}
+.brand-thumb img {
+  width: auto;
+}
+.upp.brand-section {
+  padding: 60px 0 120px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet  Blog Section Css-->
+<!-- ============================================================== -->*/
+.blog-section {
+  padding: 110px 0 66px;
+  background: #ffff;
+}
+.blog-single-box {
+  margin-bottom: 30px;
+}
+.blog-thumb {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+}
+.blog-thumb img {
+  transition: all 2s ease;
+  background-size: cover;
+  width: 100%;
+}
+.blog-thumb img:nth-child(1) {
+  transform: translatex(50%) scalex(2);
+  opacity: 0;
+  filter: blur(10px);
+}
+.blog-thumb img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  object-fit: cover;
+}
+.blog-single-box:hover .blog-thumb img:nth-child(1) {
+  transform: translatex(0) scalex(1);
+  opacity: 1;
+  filter: blur(0);
+}
+.blog-single-box:hover .blog-thumb img:nth-child(2) {
+  transform: translatex(-50%) scalex(2);
+  opacity: 0;
+  filter: blur(10px);
+}
+.blog-content {
+  padding: 23px 29px 15px 0;
+}
+
+.meta_blog ul li {
+  display: inline-block;
+  font-size: 16px;
+  color: #2a236c;
+  font-weight: 400;
+  font-family: "DM Sans";
+  padding-left: 22px;
+  position: relative;
+  z-index: 1;
+}
+.meta_blog ul li:last-child {
+  padding-left: 35px;
+}
+.meta_blog ul li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 126, 255, 0.2);
+  z-index: 1;
+}
+.meta_blog ul li:last-child::before {
+  left: 18px;
+}
+.blog-title h2 a {
+  display: inline-block;
+  padding: 4px 0 0;
+  transition: 0.5s;
+  font-size: 26px;
+  line-height: 34px;
+  color: #2a236c;
+  font-weight: 600;
+  font-family: "Albert Sans";
+}
+.blog-title h2 a:hover {
+  color: var(--secondary-color);
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Subcribe Section Css -->
+<!-- ============================================================== -->*/
+
+.medizet-subscribe {
+  background: url(../images/main-home/subscribe_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0 60px;
+}
+
+.subscribe-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.subscribe_icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  line-height: 115px;
+  text-align: center;
+}
+.subscribe-title h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Albert Sans";
+  line-height: 38px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Footer Section Css-->
+<!-- ============================================================== -->*/
+
+
+
+.designer-credit:hover {
+  color: #fcb900; /* yellow or highlight color */
+}
+
+
+
+
+.footer-section {
+  padding: 120px 0 30px;
+  background: var(--primary-color);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.footer_widget_des p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+.check_container {
+  display: block;
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 15px;
+  color: #97a9bf;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+/* Hide the browser's default checkbox */
+.check_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border: 1px solid #ffffffb3;
+  border-radius: 5px;
+}
+/* On mouse-over, add a grey background color */
+.check_container:hover input ~ .checkmark {
+  background-color: transparent;
+  border: 1px solid #ffffffb3;
+}
+/* When the checkbox is checked, add a blue background */
+.check_container input:checked ~ .checkmark {
+  background-color: transparent;
+  border: 1px solid #ffffffb3;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.check_container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.check_container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.medizet-address {
+    padding-right: 40px;
+}
+.footer_widget_des p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  margin-top: 52px;
+}
+
+.subscribe_form {
+  position: relative;
+}
+
+.subscribe_form input {
+    width: 100%;
+    padding: 0;
+    outline: 0;
+    display: inline-block;
+    border-radius: 0;
+    padding-left: 10px;
+    transition: 0.5s;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(243, 246, 243, 0.15);
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 13px 0 15px;
+    outline: 0 !important;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.subscribe_form input::placeholder {
+  font-size: 18px;
+  color: #97a9bf;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+.subscribe_form button {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  outline: 0;
+  top: 24px;
+  display: inline-block;
+  border: 0;
+  transition: 0.5s;
+  background: transparent;
+}
+.subscribe_form button i {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+
+.subscribe_form input:focus,
+button:focus {
+  outline-color: var(--secondary-color);
+  border: none !important;
+  outline:0;
+}
+
+/* widget */
+
+h4.widget-title {
+  padding: 0 0 25px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Albert Sans";
+}
+/*footer menu*/
+.menu-quick-link-content {
+  padding: 4px 0 0;
+}
+
+ul.footer-menu li {
+  display: block;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul.footer-menu li a {
+  display: inline-block;
+  transition: 0.5s;
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+
+.medizet-info {
+  margin: 28px 0 0;
+}
+.company-info-desc p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #97a9bf;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  margin: 6px 0 0;
+}
+.medizet-info h5 {
+  font-family: "Albert Sans";
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.medizet-info span {
+  font-size: 16px;
+  color: #97a9bf;
+  font-weight: 500;
+  font-family: "Albert Sans";
+  margin: 6px 0 0;
+  display: inline-block;
+}
+
+/* Footer Shape */
+
+.footer-thumb1 {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  z-index: -1;
+}
+.footer-thumb2 {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  right: 0;
+}
+
+/* Footer Bottom */
+.row.footer-btm {
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid #ffffff59;
+  margin-top: 105px;
+  padding-top: 26px;
+}
+
+/* Social Icon */
+
+.medizet-social-icon a {
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  transition: 0.5s;
+  margin-right: 35px;
+}
+
+.footer-bottom_text p a {
+  font-size: 16px;
+  color: #97a9bf;
+  font-weight: 400;
+  font-family: "DM Sans";
+  margin: 0;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+
+/*======================================
+Start  Home Two Csss
+========================================*/
+
+/* skill section */
+
+.skill_section {
+  padding: 60px 0 0;
+  background-color: #e6f1ff;
+}
+.skill_section .medizet-section-title h4 {
+  padding: 0 0 18px;
+}
+.medizet-section-title.skill_title h1 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #2a236c;
+  font-weight: 700;
+  font-family: "Albert Sans";
+}
+.prossess-ber-plugin {
+  padding: 51px 0 0;
+}
+.prossess-ber-plugin span {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 18px;
+}
+.barfiller {
+  width: 100%;
+  height: 3px;
+  background: rgba(0, 37, 112, 0.2);
+  position: relative;
+  margin-bottom: 25px;
+  margin-top: 12px;
+  border-radius: 5px;
+}
+span.fill {
+  background: var(--primary-color) !important;
+  border-radius: 5px;
+}
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: #333;
+  z-index: 1;
+}
+.barfiller .tipWrap {
+  display: none;
+}
+.barfiller .tip {
+  margin-top: -37px;
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: 500;
+  left: 0px;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 2;
+}
+.barfiller.tip777:after {
+  border: solid;
+  border-color: rgba(255, 183, 77, 0.9) transparent;
+  border-width: 6px 6px 0 6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 12px;
+  top: 100%;
+  z-index: 9;
+}
+.stat-bar:nth-of-type(1) .stat-bar-rating {
+  animation-delay: 0.25s;
+  -webkit-animation-delay: 0.25s;
+}
+
+.skil_item {
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 28px 28px 28px;
+  transition: 0.5s;
+}
+.skil_item:hover {
+  border: 2px solid #007eff;
+}
+.skil_thumb {
+  position: relative;
+  z-index: 1;
+}
+.skil_thumb::before {
+  background: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  content: "";
+  left: 50%;
+  position: absolute;
+  right: 51%;
+  top: 0;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 500ms linear;
+}
+.skil_item:hover .skil_thumb::before {
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 500ms linear;
+}
+
+.skill-icon {
+  margin-bottom: 25px;
+}
+.skill-content h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #2a236c;
+  font-weight: 600;
+  font-family: "Albert Sans";
+  margin: 0;
+  border-bottom: 1px solid #2a236c33;
+  padding-bottom: 22px;
+}
+.skill-btn a {
+  color: #2a236c;
+  display: inline-block;
+  transform: rotate(-45deg);
+  font-size: 17px;
+  margin-top: 23px;
+}
+.skil_item:hover .skill-btn a {
+  transform: rotate(0deg);
+  color: #007eff;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- medizet Breatcome Secttion -->
+<!-- ============================================================== -->*/
+
+.breatcome-section {
+  background: url(../images/resource/breatcome.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 448px;
+  margin-top: 100px;
+  position: relative;
+}
+.breatcome-section .hero-socail-icon {
+  left: 14px;
+  bottom: 97px;
+}
+
+.breatcome-content h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+ul.breatcome-item li {
+  list-style: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0 0;
+}
+
+ul.breatcome-item li a {
+  transition: 0.5s;
+  padding: 0 8px 0 0;
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  color: #f46723;
+  font-weight: 600;
+}
+
+ul.breatcome-item li a:hover {
+  color: var(--secondary-color);
+}
+
+ul.breatcome-item li a i {
+  display: inline-block;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 6px;
+}
+
+/* ======================================
+  Medizet Pricing Section Style Two
+========================================= */
+
+.pricing-section {
+  padding: 108px 0 90px;
+}
+.pricing-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+.pricing-toggle span {
+  font-size: 20px;
+  color: #041c33;
+  font-weight: 500;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 36px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #007aff;
+  transition: 0.4s;
+  border-radius: 18px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  left: 7px;
+  bottom: 3px;
+  transition: 0.4s;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #041c33;
+}
+input:checked + .slider {
+  background-color: #dceaa2;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+h2.price-yearly {
+  display: none;
+}
+
+/* prcing single item */
+
+.pricing-single-item {
+  border-radius: 15px;
+  background-color: #e7f5ff;
+  padding: 42px 40px 40px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+span.popular {
+  font-size: 15px;
+  color: #041c33;
+  font-weight: 400;
+  transition: 0.5s;
+}
+h3.pricing-plan2 {
+  font-size: 25px;
+  color: #041c33;
+  font-weight: 500;
+  margin: 8px 0 32px;
+  transition: 0.5s;
+}
+.pricing-plan h2 {
+  font-size: 45px;
+  line-height: 31px;
+  color: #041c33;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.pricing-plan h2 span {
+  font-size: 17px;
+  color: #041c33;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.pricing-feature {
+  border-top: 1px solid #0902021f;
+  margin-top: 41px;
+  padding-top: 42px;
+  padding-bottom: 33px;
+}
+.pricing-feature ul li {
+  font-size: 16px;
+  color: #041c33;
+  font-weight: 400;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.pricing-feature ul li:nth-child(4) {
+  color: #919191;
+}
+.pricing-feature ul li:nth-child(5) {
+  color: #919191;
+}
+.pricing-feature ul li:nth-child(6) {
+  color: #919191;
+}
+.pricing-feature ul li:nth-child(4) i {
+  color: #919191;
+}
+.pricing-feature ul li:nth-child(5) i {
+  color: #919191;
+}
+.pricing-feature ul li:nth-child(6) i {
+  color: #919191;
+}
+.pricing-feature ul li i {
+  color: #048ff5;
+  margin-right: 15px;
+  position: relative;
+  top: 2px;
+  transition: 0.5s;
+}
+.pricing-single-item:hover .medizet-hover-box {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.pricing-single-item .header-button a {
+  padding: 11px 30px;
+  color: #041c34;
+  background: transparent;
+  border-radius: 30px;
+  border: 1px solid #07010138;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+}
+.pricing-single-item:hover .header-button a {
+  background: #fff;
+  border: 1px solid #fff;
+}
+.pricing-single-item:hover .pricing-plan h2,
+.pricing-single-item:hover h3.pricing-plan2,
+.pricing-single-item:hover .pricing-plan h2 span,
+.pricing-single-item:hover .pricing-feature ul li,
+.pricing-single-item:hover .pricing-feature ul li i {
+  color: #fff;
+}
+.pricing-single-item:hover span.popular {
+  color: #dfe6ec;
+}
+.pricing-single-item:hover .pricing-feature ul li:nth-child(4),
+.pricing-single-item:hover .pricing-feature ul li:nth-child(5),
+.pricing-single-item:hover .pricing-feature ul li:nth-child(6),
+.pricing-single-item:hover .pricing-feature ul li:nth-child(4) i,
+.pricing-single-item:hover .pricing-feature ul li:nth-child(5) i,
+.pricing-single-item:hover .pricing-feature ul li:nth-child(6) i {
+  color: #dfe6ec;
+}
+.pricing-single-item:hover .pricing-feature {
+  border-top: 1px solid #dfe6ec;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Services Pages Section -->
+<!-- ============================================================== -->*/
+
+.services-section {
+  padding: 120px 0 90px;
+  background: #e6f1ff;
+}
+
+.single-services-box {
+  padding: 38px 35px 32px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  margin-bottom: 30px;
+}
+
+.services-icon {
+  width: 70px;
+  height: 70px;
+  line-height: 57px;
+  text-align: center;
+  border-radius: 35px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  margin-right: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.services-icon img {
+  transition: all 0.5s ease-in-out;
+}
+
+.services-icon span img {
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.services-title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  transition: 0.5s;
+}
+
+.services-desc p {
+  font-family: "DM Sans";
+  color: #65677a;
+  padding: 25px 0 32px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+
+.srvce-btn a {
+  padding: 0 0 0;
+  font-size: 15px;
+  color: #65677a;
+  font-family: "DM Sans";
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.srvce-btn a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 3px;
+  width: 0;
+  height: 1px;
+  background: var(--secondary-color);
+  transition: 0.5s;
+}
+
+.srvce-btn a i {
+  position: absolute;
+  left: 0;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.single-services-box:hover .services-icon img {
+  opacity: 0;
+  transform: translateY(-200%);
+}
+
+.single-services-box:hover .services-icon span img {
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  transform: translateY(-13px);
+}
+
+.upp.single-services-box:hover .services-icon span img {
+  transform: translateY(-20px);
+}
+
+.single-services-box:hover .srvce-btn a:before {
+  width: 100%;
+}
+
+.single-services-box:hover .srvce-btn a {
+  color: var(--secondary-color);
+}
+
+.single-services-box:hover .srvce-btn a i {
+  left: 84px;
+  opacity: 1;
+}
+
+.single-services-box:hover .services-title h3 {
+  color: var(--secondary-color);
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Pagination btn -->
+<!-- ============================================================== -->*/
+
+.pagination-btn {
+  margin: 30px 0 27px;
+}
+.pagination-btn ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+.pagination-btn ul li a {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: rgba(255, 255, 255, 0.8196078431372549);
+  line-height: 56px;
+  text-align: center;
+  font-size: 20px;
+  color: #041c33;
+  font-weight: 700;
+  font-family: "DM Sans";
+}
+.pagination-btn ul li a:hover {
+  background: var(--secondary-color);
+  color: var(--light);
+}
+.pagination-btn ul li:first-child a {
+  background: var(--secondary-color);
+  color: var(--light);
+}
+
+/*Tab Items
+=======================*/
+
+/* Tap Style */
+
+.tab {
+  padding-top: 50px;
+  position: relative;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.tabs li {
+  line-height: 38px;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+
+.tabs_item:first-child {
+  display: block;
+}
+
+/* Box Style */
+
+.upp.style-2 .testi-single-box {
+  padding: 58px 50px 38px;
+}
+
+.upp.style-2 .user-info {
+  padding: 35px 50px 35px 35px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  background-image: inherit;
+  margin: 30px 25px 0 0;
+  border-radius: 15px;
+}
+
+.upp.style-2 .user-name h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.upp.style-2 .user-name h6 {
+  text-align: left;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.upp.style-2 .testi-desc p {
+  font-size: 20px;
+  color: #65677a;
+  line-height: 32px;
+  font-family: "Albert Sans";
+  font-style: inherit;
+  padding: 5px 0 0;
+}
+
+.upp.style-2 ul.testi-rating li {
+  font-size: 19px;
+  letter-spacing: 5px;
+}
+
+/* Style Testi-bg */
+
+.row.testi-bg {
+  padding-top: 100px;
+}
+
+.upp.style-2 .testi-bg .user-info {
+  padding: 12px 0 0;
+  background-color: inherit;
+  border: 0;
+  background-image: inherit;
+  margin: 30px 25px 0 0;
+  border-radius: 15px;
+}
+
+.upp.style-2 .testi-bg .testi-single-box {
+  padding: 5px 45px 40px;
+}
+
+.blog-single-box.style_two {
+  padding: 25px 25px 15px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+.blog-btn a {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #007eff;
+  border-radius: 28px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 32px;
+}
+.blog-btn a i {
+  display: inline-block;
+  transform: rotate(-45deg);
+  margin-left: 10px;
+}
+.blog-btn a:hover {
+  background: var(--primary-color);
+}
+/* Blog Details */
+
+.search-bx {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 10px;
+}
+
+.search-bx input {
+  padding: 10px 25px;
+  width: 100%;
+  height: 60px;
+  border-radius: 0;
+  background-color: #fff;
+  border: 2px solid #ffffff;
+}
+
+.search-bx input::placeholder {
+  font-size: 15px;
+  color: #21222b;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+.search-bx button.subscribe-btn {
+  border: 0;
+  background: var(--secondary-color);
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #f46723;
+}
+
+/* Category Box */
+
+.medizet-category-items {
+  margin-bottom: 30px;
+}
+
+.category-content {
+  padding-left: 20px;
+}
+
+.category-content h4 {
+  margin: 0;
+}
+
+.category-content h4 a {
+  display: inline-block;
+  transition: 0.5s;
+  font-size: 17px;
+  line-height: 24px;
+  color: #041c33;
+  font-weight: 700;
+  font-family: "DM Sans";
+}
+
+.category-content h6 {
+  margin: 11px 0 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #f46723;
+  font-weight: 400;
+  font-family: "Albert Sans";
+}
+
+.category-content h4 a:hover {
+  color: var(--secondary-color);
+}
+
+.medizet-category-items.upp {
+  margin: 0 0 15px;
+}
+
+.post-content.upp {
+  border: 0;
+}
+
+/* Blog Post Comment */
+
+.blog-post-comment {
+  padding: 90px 0 0;
+}
+
+.post-comment {
+  display: flex;
+  padding: 30px 0 0;
+}
+
+.post-content {
+  margin: 0px 0 0px 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #fff;
+}
+
+h4.post-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.post-content h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 6px 0 14px;
+}
+
+p.posts-reply {
+  font-size: 16px;
+  color: #65677a;
+}
+
+.post-comment2 {
+  display: flex;
+  padding: 40px 0 0;
+  margin-left: 80px;
+}
+
+/* ====================================================
+   Medizet Blog Details Css
+======================================================= */
+.medizet-section.blg-list.details {
+  padding: 120px 0 120px;
+}
+.blog-details_itm {
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 24, 25, 0.1);
+  padding: 20px 35px 0;
+  position: relative;
+}
+.blog-details_itm:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 73px;
+  height: 1px;
+  width: 100%;
+  border: 1px solid rgba(0, 24, 25, 0.1);
+}
+.blog-content {
+  transition: 0.5s;
+}
+.blog-meta {
+  padding: 8px 0 16px;
+}
+.blog-meta span {
+  padding-left: 25px;
+  padding-right: 0;
+  font-size: 16px;
+  color: #041c33ab;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+.blog-meta span:last-child {
+  padding-left: 50px;
+}
+.blog-meta span.left {
+  position: relative;
+  z-index: 1;
+  padding-left: 30px;
+}
+.blog-meta span.left:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 10px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #f46723;
+}
+.blog-meta span a i {
+  color: #f46723;
+  margin-right: 5px;
+}
+.blog-meta span a {
+  color: #575f66;
+  transition: 0.5s;
+  display: inline-block;
+}
+.blog-meta span a:hover {
+  color: #f46723;
+}
+
+.blog-content-text.text-left h2 {
+  margin: 0 0 15px;
+  font-size: 28px;
+  line-height: 42px;
+  color: #041c33;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+h3.blog-dtls-title3 {
+    font-size: 24px;
+    color: #041c33;
+    font-weight: 600;
+    font-family: "Albert Sans";
+    margin: 53px 0 17px;
+}
+p.qouik {
+  margin-right: 33px;
+}
+p.qouik2 {
+  margin: 21px 57px 42px 0;
+}
+p.desc-style1 {
+  margin-right: 82px;
+}
+
+.blog-details-thumb img {
+  width: 100%;
+}
+/*blog tetails items*/
+
+.blog-details-single-items {
+  background: transparent;
+  display: flex;
+  padding: 40px 179px 41px 40px;
+  border: 1px solid rgba(0, 24, 25, 0.1);
+}
+.blog-details-single-items .blog-icon {
+  float: left;
+  padding: 0;
+  margin-right: 25px;
+  margin-top: 8px;
+}
+
+.blog-details-content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #041c33;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "DM Sans";
+  overflow: hidden;
+}
+
+.blog-details-bio span {
+  font-size: 15px;
+  color: #f46723;
+  font-weight: 400;
+  padding-left: 60px;
+  position: relative;
+  z-index: 1;
+}
+.blog-details-bio span:before {
+  width: 50px;
+  height: 1px;
+  background-color: #f46723;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 10px;
+}
+
+h2.blog-dtls-title3 {
+  font-size: 34px;
+  color: #171717;
+  font-weight: 700;
+  margin: 56px 0 18px;
+}
+
+/* blog details list thumb */
+
+.blog-details-list-item {
+  margin-top: 18px;
+  margin-bottom: 47px;
+}
+
+h3.blog-details-list-title {
+  font-size: 24px;
+  color: #171717;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+ul.blog-details-list li {
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #041c33;
+  font-weight: 500;
+  font-family: "DM Sans";
+}
+
+ul.blog-details-list img {
+  margin-right: 10px;
+}
+
+/*blog social*/
+.blog-social-tags a {
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  display: inline-block;
+  text-align: center;
+  padding: 5px 24px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "DM Sans";
+  margin-right: 8px;
+}
+.blog-social-tags a:hover {
+  background: var(--secondary-color);
+  color: var(--light);
+}
+.blog-details-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.single-blog-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3.blog-dtls-title3.two {
+  margin: 40px 0 17px;
+}
+
+.single-blog-social-icon ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.single-blog-social-icon ul li i {
+  font-size: 13px;
+  line-height: 34px;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  transition: 0.5s;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #1773ea;
+}
+
+.single-blog-social-icon ul li:nth-child(2) i {
+  background: #00a9e8;
+}
+.single-blog-social-icon ul li:nth-child(3) i {
+  background: #0270ad;
+}
+.single-blog-social-icon ul li:nth-child(4) i {
+  background: #b7081b;
+}
+
+.single-blog-social-icon ul li:hover i {
+  background: var(--primary-color);
+}
+
+/* Comment CSS */
+.details_rcnt {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 34px 30px 10px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  border: 1px solid rgba(0, 24, 25, 0.1);
+}
+.details_rcnt.style-two {
+  text-align: right;
+}
+.details_rcnt.style-two .category-content {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.details_rcnt .category-content h4 a {
+  display: inline-block;
+  transition: 0.5s;
+  font-size: 18px;
+  line-height: 26px;
+  color: #041c33;
+  font-weight: 600;
+  font-family: "DM Sans";
+}
+.pagination-btns a {
+  display: inline-block;
+  font-size: 18px;
+  color: #041c33;
+  font-weight: 600;
+  font-family: "DM Sans";
+  margin-bottom: 23px;
+}
+.pagination-btns a i {
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+
+.blog-details-comment {
+  margin-bottom: 20px;
+  position: relative;
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 24, 25, 0.10196078431372549);
+  padding-bottom: 12px;
+  margin-top: 35px;
+}
+
+.blog-details-comment-thumb {
+  float: left;
+  margin-right: 25px;
+}
+
+.blog-details-comment-content {
+  overflow: hidden;
+}
+
+.blog-details-comment-content h2 {
+  margin-top: 0;
+  margin-bottom: 13px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #041c33;
+  font-weight: 400;
+}
+.blog-details-comment-reply a {
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 28px;
+  color: #041c33;
+  font-weight: 500;
+  font-family: "DM Sans";
+  position: absolute;
+  right: 0;
+  top: -4px;
+}
+.reply .blog-details-comment-reply a {
+  right: -45px;
+}
+
+.blog-details-comment-reply a i {
+  margin-right: 10px;
+  color: var(--secondary-color);
+}
+
+.blog-details-comment.reply {
+  margin-left: 90px;
+  border: 0;
+  padding-bottom: 0;
+  margin-right: 40px;
+}
+
+/* commet form */
+.comment-bx {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 47px 60px 60px;
+  margin-top: 30px;
+  border: 1px solid rgba(0, 24, 25, 0.1);
+}
+.comment-form {
+  margin-top: 56px;
+}
+.comment-title h3 {
+  margin-bottom: 27px;
+  font-size: 24px;
+  color: #041c33;
+  font-weight: 500;
+  font-family: "Albert Sans";
+}
+.comment-title.two h3 {
+  margin: 73px 0 35px;
+}
+#comment-msg-box {
+  width: 100%;
+  transition: 0.5s;
+  height: 170px;
+  background-color: transparent;
+  border: 0;
+  padding: 21px 25px;
+  border: 1px solid rgba(23, 23, 23, 0.1);
+}
+
+#comment-msg-box::placeholder {
+  font-size: 15px;
+  color: #041c33;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+input.comment-box {
+  border: 1px solid rgba(23, 23, 23, 0.1);
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 25px;
+  height: 56px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+input.comment-box::placeholder {
+  font-size: 15px;
+  color: #041c33;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+.check_bx.two {
+  margin: 20px 0 26px;
+}
+.check_bx.two p {
+  font-size: 16px;
+  color: #041c338f;
+  font-weight: 400;
+  font-family: "DM Sans";
+}
+
+/*form button*/
+.comment-form .submit-comment {
+  padding: 14px 22px;
+  margin-left: 15px;
+  border: 0;
+  transition: 0.5s;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "DM Sans";
+  border-radius: 8px;
+  background-color: #f46723;
+  width: 199px;
+}
+.comment-form .submit-comment:hover {
+  background: var(--primary-color);
+  color: var(--light);
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet About Inner Page Secttion -->
+<!-- ============================================================== -->*/
+
+.style-3.about-section {
+  padding: 120px 0 120px;
+  position: relative;
+  z-index: 1;
+}
+
+.style-3 .about-thumb img {
+  border-radius: 30px 30px 0px 0;
+}
+
+.style-3 .counter-right-side {
+  display: flex;
+  background: var(--secondary-color);
+  justify-content: center;
+  width: 549px;
+  padding: 30px 0 20px;
+  border-radius: 0 0 30px 30px;
+}
+
+.style-3 .odometer-wrapper.counter-box-title {
+  border-bottom: 0;
+  padding: 0;
+}
+
+.style-3 .odometer-wrapper.counter-box-title h1 {
+  font-size: 45px;
+}
+
+.style-3 .counter-desc p {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0px 0 0;
+}
+
+/* About Services */
+
+ul.about-medizet-services li {
+  display: block;
+  list-style: none;
+  position: relative;
+  color: var(--primary-color);
+  padding: 0 0px 20px 25px;
+  position: relative;
+}
+
+ul.about-medizet-services li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+}
+
+.style-3.about-section .medizet-btn {
+  padding: 28px 0 0;
+}
+
+.style-3.about-section .medizet-shape {
+  position: absolute;
+  right: 10px;
+  bottom: 154px;
+  text-align: right;
+  z-index: -1;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Mission & Vission Section -->
+<!-- ============================================================== -->*/
+
+.mission-vission-section {
+  padding: 0 0 90px;
+}
+
+.mission-vission-single-box {
+  padding: 38px 35px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.m_v-ssion {
+  align-items: center;
+}
+
+.m_v-ssion-icon {
+  margin-right: 15px;
+  width: 65px;
+  height: 65px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  transition: 0.5s;
+}
+
+.m_v-ssion-title h3 {
+  font-size: 24px;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin: 0;
+  transition: 0.5s;
+}
+
+.m_v-ssion-desc p {
+  font-size: 17px;
+  color: #65677a;
+  display: inline-block;
+  padding: 25px 0 0;
+  transition: 0.5s;
+}
+
+.mission-vission-single-box:hover {
+  border: 2px solid var(--primary-color);
+}
+
+.mission-vission-single-box:hover .m_v-ssion-title h3 {
+  color: var(--secondary-color);
+}
+
+.mission-vission-single-box:hover .m_v-ssion-icon {
+  background: var(--bs-primary-bg-subtle);
+}
+
+.mission-vission-single-box:hover .m_v-ssion-desc p {
+  color: #97a9bf;
+}
+
+.mission-vission-single-box .medizet-hover-box {
+  background-color: var(--primary-color);
+}
+
+.mission-vission-single-box .hover-bx {
+  border-radius: 16px 0 0px 16px;
+}
+
+.mission-vission-single-box .hover-bx4 {
+  border-radius: 0 16px 16px 0;
+}
+
+.mission-vission-single-box:hover .medizet-hover-box {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Start medizet Section -->
+<!-- ============================================================== -->*/
+
+.medizet-section {
+  padding: 120px 0 120px;
+  background: #eef7ff;
+}
+
+.medizet-thumb img {
+  border-radius: 32px;
+}
+
+.medizet-title h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 25px 0 21px;
+}
+
+p.mdy-pd {
+  padding: 8px 0 30px;
+}
+
+/* medizet single box */
+
+.medizet-single-box {
+  padding: 35px 30px 20px;
+  background-color: rgba(243, 248, 253, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.medizet-icons {
+  float: left;
+  width: 80px;
+  height: 80px;
+  line-height: 77px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  margin-right: 30px;
+}
+
+.medizet-content {
+  overflow: hidden;
+}
+
+.medizet-content h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.medizet-content p {
+  color: #65677a;
+}
+
+/* medizet  Blog */
+.medizet-blog {
+  background: var(--secondary-color);
+  padding: 30px 40px 14px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.blog-icon {
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  padding-right: 30px;
+  margin-right: 30px;
+  margin-top: -15px;
+}
+
+.blog-desc p {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+  padding: 0 0 0 24px;
+}
+
+.medizet-blog .medizet-hover-box {
+  background-color: var(--primary-color);
+}
+
+.medizet-blog .hover-bx {
+  border-radius: 15px 0 0px 15px;
+}
+
+.medizet-blog .hover-bx4 {
+  border-radius: 0 15px 15px 0;
+}
+
+.medizet-blog:hover .medizet-hover-box {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/*****************************
+ Faq Accordion
+*******************************/
+.faq-section {
+  background: #e6f1ff;
+}
+.faq-section.upp {
+  padding: 0 0 90px;
+}
+.faq-section.style_upper {
+  padding: 105px 0 78px;
+}
+.style-0.breatcome-section {
+  margin-top: 0px;
+}
+
+.accordion-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.accordion-content p {
+  color: #2a236c;
+  padding: 20px 0 32px;
+}
+
+.accordion li {
+  list-style: none;
+  padding: 0px 0px 25px;
+}
+
+.accordion li a {
+  position: relative;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary-color) !important;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  padding: 16px 20px 16px 25px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.accordion li a span {
+  font-size: 20px;
+  color: var(--secondary-color);
+  padding: 0 15px 0 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.accordion li a span:before {
+  position: absolute;
+  content: "";
+  top: -8px;
+  right: -765px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+}
+
+.accordion li p {
+  display: none;
+  padding: 24px 15px 10px 25px;
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+.accordion a:before {
+  width: 3px;
+  height: 15px;
+  background: var(--secondary-color);
+  position: absolute;
+  right: 41px;
+  content: " ";
+  top: 22px;
+  transform: rotate(0deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.accordion a:after {
+  width: 15px;
+  height: 3px;
+  background: var(--secondary-color);
+  position: absolute;
+  right: 35px;
+  content: " ";
+  top: 28px;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+/* Active */
+
+.accordion a.active:after {
+  transform: rotate(0deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  background: #fff;
+}
+
+.accordion a.active:before {
+  display: none;
+}
+
+.accordion a.active {
+  background: var(--primary-color);
+  color: #fff !important;
+  border: 2px solid var(--primary-color);
+}
+
+.accordion li a.active span {
+  color: #fff;
+}
+
+.accordion li a.active span:before {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+/* STyle 2 */
+
+.style-2.accordion li p {
+  display: none;
+  padding: 24px 15px 30px 25px;
+  margin: 0;
+  background: #eef5ff;
+  overflow: hidden;
+  font-size: 16px;
+  border-top: 0;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.style-2.accordion li a span {
+  padding: 0 0px 0 0px;
+}
+
+.style-2.accordion li a span:before {
+  right: -584px;
+}
+
+.style-2.accordion li a.active span:before {
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+/* Active */
+
+.style-2.accordion a.active {
+  background: #eef5ff;
+  color: var(--primary-color) !important;
+  border: 2px solid #fff;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 2px solid #fff;
+  padding: 18px 20px 22px 25px;
+}
+
+/* Accordion Style 2 */
+
+.accordion2 li {
+  list-style: none;
+  padding: 0px 0px 25px;
+}
+
+.accordion2 li a {
+  position: relative;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary-color) !important;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  padding: 16px 20px 16px 25px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.accordion2 li a span {
+  font-size: 20px;
+  color: var(--secondary-color);
+  padding: 0 15px 0 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.accordion2 li a span:before {
+  position: absolute;
+  content: "";
+  top: -8px;
+  right: -584px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+}
+
+.style-2.accordion2 li a span {
+  padding: 0 0px 0 0px;
+}
+
+.accordion2 li p {
+  display: none;
+  padding: 24px 15px 30px 25px;
+  margin: 0;
+  background: #eef5ff;
+  overflow: hidden;
+  font-size: 16px;
+  border-top: 0;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.accordion2 a:before {
+  width: 3px;
+  height: 15px;
+  background: var(--secondary-color);
+  position: absolute;
+  right: 41px;
+  content: " ";
+  top: 22px;
+  transform: rotate(0deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.accordion2 a:after {
+  width: 15px;
+  height: 3px;
+  background: var(--secondary-color);
+  position: absolute;
+  right: 35px;
+  content: " ";
+  top: 28px;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+/* Active */
+
+.accordion2 a.active:after {
+  transform: rotate(0deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  background: #fff;
+}
+
+.accordion2 a.active:before {
+  display: none;
+}
+
+.accordion2 a.active {
+  background: #eef5ff;
+  color: var(--primary-color) !important;
+  border: 2px solid #fff;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 2px solid #fff;
+  padding: 18px 20px 22px 25px;
+}
+
+.accordion2 li a.active span:before {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+/* Style upp */
+
+.upp.style-2.accordion li a {
+  font-size: 18px;
+}
+.upp.style-2.accordion li a span:before {
+  right: -1245px;
+}
+
+/* ================
+medizet Category box
+======================= */
+
+h3.category-title {
+  padding: 0px 0 14px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-size: 24px;
+  color: #041c33;
+  font-weight: 600;
+}
+h3.category-title:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background: #0c5adb;
+  transition: 0.5s;
+}
+
+h3.category-title:hover:before {
+  width: 100%;
+}
+
+/* box */
+.side_brs {
+  margin-right: 25px;
+}
+
+.medizet-category-box {
+  padding: 30px 35px 24px;
+  border-radius: 0;
+  background-color: #f3f4f8;
+  border: 2px solid #ffffff;
+  margin-bottom: 30px;
+}
+
+ul.medizet-service li {
+  padding: 13px 24px 13px;
+  height: 56px;
+  display: block;
+  list-style: none;
+  border-radius: 0;
+  background-color: #fff;
+  border: 0;
+  margin: 0 0 15px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+ul.medizet-service li:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  right: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background: var(--primary-color);
+  transition: 0.5s;
+  border-radius: 0;
+}
+
+ul.medizet-service li a {
+  transition: 0.5s;
+  font-size: 15px;
+  color: #041c33;
+  font-weight: 400;
+  font-family: "Albert Sans";
+}
+
+ul.medizet-service li a i {
+  padding: 0 12px 0 0;
+  font-size: 17px;
+  display: inline-block;
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+ul.medizet-service li:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+ul.medizet-service li:hover a {
+  color: #fff;
+}
+
+ul.medizet-service li:hover a i {
+  color: #fff;
+}
+
+/* list category  */
+
+ul.list_category li {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 7px;
+}
+ul.list_category li a {
+  display: inline-block;
+  font-size: 13px;
+  color: #041c33;
+  font-weight: 400;
+  font-family: "Albert Sans";
+  padding: 5px 15px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.medizet-btn.style_inner {
+  margin-top: 30px;
+}
+/* Download Button */
+
+.download-btn a {
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: var(--primary-color);
+  width: 100%;
+  color: #fff;
+  padding: 15px 23px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.download-btn a i {
+  font-size: 22px;
+  position: relative;
+  top: 2px;
+  padding-right: 7px;
+}
+
+.download-btn a span i {
+  float: right;
+  display: inline-block;
+  font-size: 17px;
+  padding: 0;
+  transition: 0.5s;
+}
+
+a.active-btn {
+  background: var(--secondary-color);
+}
+
+span.dwnlod-hvr i {
+  position: absolute;
+  right: 22px;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateY(50px);
+}
+
+.download-btn a:hover span i {
+  opacity: 0;
+  transform: translateY(-200%);
+}
+
+.download-btn a:hover span.dwnlod-hvr i {
+  opacity: 1;
+  transform: translateY(15px);
+}
+.blog-thumbs img {
+  width: 100%;
+}
+
+/* Compani contact */
+
+.medizet-company-contact {
+  background: url(../images/resource/company-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 55px 40px 50px;
+  border-radius: 20px;
+}
+
+.call-icon {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.call-icon:before {
+  position: absolute;
+  content: "";
+  top: 35px;
+  left: 35px;
+  right: 0;
+  margin: auto;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid #f46723;
+  animation: zoomBig2 2.25s linear infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.medizet-category-content h6 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "DM Sans";
+  padding: 28px 0 0;
+  color: #fff;
+}
+.medizet-category-content h4 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "DM Sans";
+  padding: 4px 0 20px;
+  color: #fff;
+}
+
+.medizet-category-content p {
+  font-size: 16px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+
+.medizet-category-content p i {
+  color: var(--secondary-color);
+  padding: 0 8px 0 0;
+  display: inline-block;
+}
+
+@keyframes zoomBig2 {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+    border-width: 7px;
+  }
+  40% {
+    opacity: 0.5;
+    border-width: 5px;
+  }
+  65% {
+    border-width: 4px;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+    border-width: 2px;
+  }
+}
+
+/* Contact Button */
+
+.medizet-contact-btn a {
+  padding: 15px 30px;
+  font-family: "DM Sans";
+  background: var(--secondary-color);
+  color: #fff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  margin-top: 52px;
+}
+
+.medizet-contact-btn a i {
+  padding-left: 5px;
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+}
+
+.medizet-contact-btn a .medizet-hover-btn {
+  background-color: var(--primary-color);
+}
+
+.medizet-contact-btn a .hover-btn {
+  border-radius: 5px 0 0px 5px;
+}
+
+.medizet-contact-btn a .hover-btn4 {
+  border-radius: 0 5px 5px 0;
+}
+
+.medizet-contact-btn a:hover .medizet-hover-btn {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* Custom Scroll  */
+
+.custom-scroll {
+  width: auto;
+  width: 100%;
+  height: 1240px;
+  padding: 0 20px 0 0;
+  text-align: left;
+  background: transparent;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: inline-block;
+}
+
+.custom-scroll .accordion li a span:before {
+  right: -728px;
+}
+
+.custom-scroll .medizet-content p {
+  font-size: 16px;
+}
+
+.medizet-section.blg-list .custom-scroll {
+  height: 1665px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Medizet Project Section-->
+<!-- ============================================================== -->*/
+
+.project-section {
+  padding: 120px 0 26px;
+  background: #e6f1ff;
+  position: relative;
+  z-index: 1;
+}
+
+.Medizet-shape {
+  position: absolute;
+  right: 30px;
+  bottom: 8%;
+  z-index: -1;
+}
+.project-thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.project-thumb img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.project-content {
+  padding: 25px 30px 10px;
+  position: relative;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    180deg,
+    #007dff 0%,
+    #e5f1ff 74%,
+    #e5f1ff 100%
+  );
+  border: 2px solid #ffffff;
+  bottom: 92px;
+  width: 84%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.project-content h5 {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.project-content h2 {
+  font-size: 22px;
+  padding: 0px 0 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.project-content p {
+  font-size: 16px;
+  color: #65677a;
+  font-family: "DM Sans";
+}
+
+.project-icon a {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 37px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #2a236c;
+  border: 2px solid #ffffff;
+  color: #fff;
+  position: absolute;
+  top: 43px;
+  right: 79px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.single-project-box:hover .project-icon a {
+  right: 20px;
+  opacity: 1;
+}
+
+.single-project-box:hover .project-content {
+  bottom: 130px;
+}
+
+/* *********************
+Project Details
+********************** */
+
+.doctors-service {
+  padding: 22px 25px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.doctor-content {
+  padding: 0 0 0 12px;
+}
+
+.doctor-content h5 {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "DM Sans";
+  margin: 0;
+}
+.doctor-content h3 {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.doctor-content h3 a {
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.doctor-content h3 a:hover {
+  color: var(--secondary-color);
+}
+
+/****************************** 
+Medizet Contact  Page CSS  
+*******************************/
+
+.medizet-appoinment {
+  padding: 120px 0 108px;
+  background: #e6f1ff;
+}
+
+.medizet-appoinment .medizet-section-title {
+  margin-bottom: 39px;
+}
+
+/* contact info item */
+
+.row.contact-info_item {
+  margin: 0;
+  background: url(../images/resource/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+}
+
+.medizet-appoinment .contact-form-box {
+  padding: 0;
+  background: transparent;
+  border-radius: 20px;
+}
+
+.medizet-appoinment .form-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  outline: 0;
+  font-size: 15px;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-family: "DM Sans";
+  height: 58px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid rgba(27, 52, 52, 0.1);
+}
+.medizet-appoinment .form-box input::placeholder {
+  color: #868681;
+}
+
+.medizet-appoinment .form-box textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid rgba(27, 52, 52, 0.1);
+  padding: 12px 20px 0;
+  color: #2a236c !important;
+}
+.medizet-appoinment .form-box textarea::placeholder {
+  color: #868681;
+}
+.medizet-appoinment .check_bx p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 26px;
+  color: #868681;
+  font-weight: 400;
+}
+.medizet-appoinment .check_bx {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 37px;
+  margin-top: 17px;
+}
+.medizet-appoinment button.submit-btn {
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+.contact-service-box {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 0 14px;
+}
+.contact-service-box:before {
+  position: absolute;
+  right: 0;
+  top: 92px;
+  content: "";
+  width: 2px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.5019607843137255);
+}
+.contact-service-box.last:before {
+  display: none;
+}
+
+.contact-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffff;
+  padding-bottom: 50px;
+  margin-bottom: 45px;
+}
+
+.contact-title h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans";
+  color: #65677a;
+}
+
+.contact-icon img {
+  position: relative;
+  z-index: 1;
+}
+.contact-icon {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #ffff;
+  display: inline-block;
+  font-size: 25px;
+  color: var(--secondary-color);
+  position: relative;
+}
+.contact-icon:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  z-index: 1;
+  top: -10px;
+  left: -10px;
+  margin: auto;
+  right: 0;
+  border: 2px solid #ffff;
+  text-align: center;
+}
+.contact-address h2 {
+  margin: 30px 0 12px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Albert Sans";
+}
+
+.contact-address span {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.google-map {
+  overflow: hidden;
+}
+
+/* Map Section */
+.row.appoinment.align-items-center {
+  padding: 100px 0 0;
+}
+
+/* Error Section */
+
+.error-section {
+  padding: 90px 170px 90px;
+  position: relative;
+  z-index: 1;
+  background: #e6f1ff;
+}
+
+.error-service-content {
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  height: 780px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-content {
+  text-align: center;
+}
+
+.error-content h1 {
+  font-size: 200px;
+  color: #2a236c;
+  font-weight: 700;
+  text-align: center;
+  width: 596px;
+  height: 280px;
+  line-height: 280px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  display: inline-block;
+}
+
+.error-content h1 span {
+  color: var(--secondary-color);
+}
+
+.error-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 35px 0 18px;
+}
+
+.error-content p {
+  color: #65677a;
+}
+
+.error-content .medizet-button.text-right {
+  text-align: center !important;
+  padding: 25px 0 0;
+}
+
+.error-content a.medizet-btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.error-shape {
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  z-index: -1;
+}
+a.Medizet-btn {
+  position: relative;
+  padding: 17px 42px;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #007eff;
+  color: #fff;
+  font-weight: 500;
+  transition: 500ms;
+  z-index: 1;
+  border-radius: 30px;
+  margin-top: 27px;
+}
+a.Medizet-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Team Details Section */
+
+/* Team details Section 
+==============================*/
+
+.team-details-area {
+  padding: 120px 0 68px;
+  background: #e6f1ff;
+}
+/* .team-details-area .prossess-ber-plugin {
+  padding: 19px 0 0;
+} */
+
+.team-details {
+  box-shadow: 6px 5px 30px rgba(0, 0, 0, 0.12);
+  padding: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.team-details-thumb img {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+/* Team details content */
+
+.team-details-content {
+  padding: 0 0 0 35px;
+}
+
+.team-details-title h2 {
+  color: #0e0e0e;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.team-details-title p {
+  font-size: 16px;
+  margin: 10px 0 0;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.team-details-content-text ul li {
+  margin-bottom: 17px;
+  display: block;
+  color: #65677a;
+}
+
+.team-details-content-text ul li span {
+  font-weight: 500;
+  margin-right: 15px;
+  font-size: 17px;
+  color: var(--primary-color);
+}
+
+.team-details-content-icon a {
+  margin: 3px;
+  background: var(--secondary-color);
+  line-height: 1;
+  display: inline-block;
+  border-radius: 3px;
+  color: #fff;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  transition: 0.5s;
+  border: 1px solid var(--secondary-color);
+}
+
+.team-details-content-icon a:hover {
+  background: transparent;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+.skill-wrapper h6 {
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.team-detail-title h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.team-detail-title p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #63636b;
+  margin-top: 40px;
+}
+
+/* Skill section */
+
+.team-details-area .medizet-section-title h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.head-title h3 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-weight: 800;
+  padding: 0px 0 15px;
+}
+.contact-form-box.inner_page {
+  padding: 47px 50px 38px;
+  box-shadow: 6px 5px 30px rgba(0, 0, 0, 0.12);
+  background: transparent;
+  border-radius: 20px;
+}
+.contact-form-box.inner_page .form-box:before {
+  display: none;
+}
+.contact-form-box.inner_page .form-box input {
+  padding: 0 25px;
+  border: 1px solid #007bfc;
+}
+.contact-form-box.inner_page .form-box input::placeholder {
+  color: #2a236c;
+}
+.contact-form-box.inner_page #comment-msg-box {
+  background-color: rgba(255, 255, 255, 0.10196078431372549);
+  border-radius: 10px;
+  border: 1px solid #007bfc;
+  height: 146px;
+}
+.contact-form-box.inner_page textarea#comment-msg-box::placeholder {
+  color: #2a236c;
+  font-family: "Albert Sans";
+}
+.contact-form-box.inner_page .submit-button {
+  margin-top: 22px;
+}
+
+/*
+<!-- ============================================================== -->
+<!-- Start nav button-->
+<!-- ============================================================== -->*/
+
+.nav-btn.navSidebar-button {
+  display: inline-block;
+}
+.xs-sidebar-group .xs-overlay {
+  left: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 101;
+  height: 100%;
+  opacity: 0;
+  width: 100%;
+  visibility: hidden;
+  -webkit-transition: all 0.4s ease-in 0.8s;
+  -o-transition: all 0.4s ease-in 0.8s;
+  transition: all 0.4s ease-in 0.8s;
+}
+.xs-sidebar-group .widget-heading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px;
+}
+.xs-sidebar-widget {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 360px;
+  z-index: 999999;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #272727;
+  -webkit-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+  -o-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+  transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
+  visibility: hidden;
+  opacity: 0;
+}
+.xs-sidebar-group.isActive .xs-overlay {
+  opacity: 0.4;
+  visibility: visible;
+  -webkit-transition: all 0.8s ease-out 0s;
+  -o-transition: all 0.8s ease-out 0s;
+  transition: all 0.8s ease-out 0s;
+  left: 0;
+}
+.xs-sidebar-group.isActive .xs-sidebar-widget {
+  opacity: 1;
+  visibility: visible;
+  right: 0;
+  transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
+}
+.sidebar-textwidget {
+  padding: 30px;
+}
+.close-side-widget i {
+  color: var(--secondary-color);
+  font-size: 28px;
+  display: block;
+}
+.sidebar-widget-container {
+  position: relative;
+  top: 150px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in 0.3s;
+  -o-transition: all 0.3s ease-in 0.3s;
+  transition: all 0.3s ease-in 0.3s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.xs-sidebar-group.isActive .sidebar-widget-container {
+  top: 0px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 1s ease-out 1.2s;
+  -o-transition: all 1s ease-out 1.2s;
+  transition: all 1s ease-out 1.2s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.xs-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 0;
+}
+.xs-bg-black {
+  background-color: #cda274;
+}
+.row.padding-two {
+  padding: 35px 0 11px 15px;
+}
+.contact-info h2 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+ul.list-style-one li {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  padding: 16px 0 0;
+  font-size: 15px;
+}
+
+ul.list-style-one li span {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 0 10px 0 0px;
+}
+
+ul.social-box {
+  margin: 30px 0 0;
+}
+ul.social-box li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 6px 0 0;
+}
+
+ul.social-box li a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  text-align: center;
+  background: #fff;
+  color: var(--primary-color);
+  transition: 0.5s;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+}
+
+ul.social-box li a:hover {
+  color: #fff;
+  background: var(--secondary-color);
+}
+.content-thumb-box {
+  padding-bottom: 12px;
+}
+.content-thumb-box img {
+  width: 92%;
+  border-radius: 10px;
+}
+
+.nav-btn.navSidebar-button span i {
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background-color: #f46723;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.nav-btn.navSidebar-button span i:hover {
+  background: #dceaa2;
+  color: #041c33;
+}
+/*=============================================
+  Search Popup
+===============================================
+***/
+
+.search-box-btn i {
+  display: inline-block;
+  color: #2a236ca3;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 31px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  background: transparent;
+  border: 1px solid #2a236c91;
+}
+.meedy_nav_manu.style_two .search-box-btn i {
+  color: #fff;
+  background: #ffffff3d;
+  border: 1px solid #ffffff3d;
+}
+
+.search-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  margin-top: -540px;
+  transform: translateY(-100%);
+  background-color: rgba(0, 0, 0, 0.75);
+  -webkit-transition: all 500ms cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 1500ms cubic-bezier(0.86, 0, 0.07, 1);
+  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.search-popup {
+  width: 100%;
+}
+
+.search-active .search-popup {
+  transform: translateY(0%);
+  margin-top: 0;
+}
+
+.search-popup .close-search {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: -200px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: var(--primary-color);
+  width: 70px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  -webkit-transition: all 500ms ease;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.search-popup .close-search:before {
+  position: absolute;
+  content: "";
+  left: -6px;
+  top: -5px;
+  border-bottom: 5px solid #ffffff;
+  border-top: 5px solid var(--secondary-color);
+  border-right: 5px solid #fff;
+  border-left: 5px solid var(--secondary-color);
+  height: 74px;
+  width: 76px;
+  border-radius: 50%;
+  animation: spin 10s infinite alternate linear,
+    glow 5s infinite alternate linear;
+}
+
+.search-active .search-popup .close-search {
+  visibility: visible;
+  opacity: 1;
+  top: 50%;
+  -webkit-transition-delay: 1500ms;
+  transition-delay: 1500ms;
+}
+.search-popup form {
+  position: absolute;
+  max-width: 700px;
+  top: 50%;
+  left: 15px;
+  right: 15px;
+  margin: -35px auto 0;
+  transform: scaleX(0);
+  transform-origin: center;
+  background-color: #111111;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.search-active .search-popup form {
+  transform: scaleX(1);
+  -webkit-transition-delay: 1200ms;
+  transition-delay: 1200ms;
+}
+.search-popup .form-group {
+  position: relative;
+  margin: 0px;
+  overflow: hidden;
+}
+.search-popup .form-group input[type="text"],
+.search-popup .form-group input[type="search"] {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 50px;
+  color: #000000;
+  height: 70px;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #ffffff;
+  transition: all 500ms ease;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.search-popup .form-group input[type="submit"],
+.search-popup .form-group button {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  height: 70px;
+  line-height: 70px;
+  background: transparent;
+  text-align: center;
+  font-size: 22px;
+  color: var(--primary-color);
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  border: none;
+}
+.search-popup .form-group input[type="submit"]:hover,
+.search-popup .form-group button:hover {
+  color: #000000;
+}
+
+.search-popup input::placeholder,
+.search-popup textarea::placeholder {
+  color: #000000;
+}
+.search-popup .close-search.style-two {
+  position: absolute;
+  right: 25px;
+  left: auto;
+  color: #ffffff;
+  width: auto;
+  height: auto;
+  top: 25px;
+  margin: 0px;
+  border: none;
+  background: none !important;
+  box-shadow: none !important;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.search-popup .style-two.close-search:before {
+  position: inherit;
+  border: 0;
+}
+
+.flaticon-multiply:before {
+  content: inherit;
+}
+button.close-search i {
+  font-size: 25px;
+  color: #fff;
+  display: inline-block;
+}
+span.flaticon-multiply i {
+  display: inline-block;
+  color: var(--secondary-color);
+}
+
+/*============================
+/* Medizet Scroll Up Css 
+==============================*/
+
+#progress {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: grid;
+  place-items: center;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+.progress.hide {
+  display: none !important;
+  transition: 0.5s !important;
+}
+
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+#container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/* Start  Curser pointer CSS */
+
+.cursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 2px solid #00ffff;
+  transition: 0.3s;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1000;
+}
+.cursor2 {
+  position: fixed;
+  width: 4px;
+  height: 4px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.grow,
+.grow-small {
+  transform: scale(3);
+  background: white;
+  mix-blend-mode: difference;
+  border: none;
+}
+
+.grow-small {
+  transform: scale(1.7);
+}
+
+/* ================ All Animation CSS ===================*/
+
+.rotate {
+  -webkit-animation-name: rotateme;
+  animation-name: rotateme;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  background-position: center center;
+}
+@keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.bounce-animate {
+  animation-name: float-bob;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: float-bob;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob;
+  -ms-animation-duration: 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob;
+  -o-animation-duration: 2s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.bounce-animate2 {
+  animation-name: float-bob2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: float-bob2;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob2;
+  -ms-animation-duration: 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob2;
+  -o-animation-duration: 3s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.bounce-animate3 {
+  animation-name: float-bob3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: float-bob3;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob3;
+  -ms-animation-duration: 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob3;
+  -o-animation-duration: 3s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+
+.bounce-animate4 {
+  animation-name: float-bob4;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: float-bob4;
+  -moz-animation-duration: 5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob4;
+  -ms-animation-duration: 5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob4;
+  -o-animation-duration: 5s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.bounce-animate5 {
+  animation-name: float-bob5;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: float-bob5;
+  -moz-animation-duration: 6s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob5;
+  -ms-animation-duration: 6s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob5;
+  -o-animation-duration: 6s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.bounce-animate-slow {
+  animation-name: float-bob5;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: float-bob5;
+  -moz-animation-duration: 15s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob5;
+  -ms-animation-duration: 15s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob5;
+  -o-animation-duration: 15s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.bounce-animate-3 {
+  animation-name: float-bob6;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: float-bob6;
+  -moz-animation-duration: 6s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob6;
+  -ms-animation-duration: 6s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob6;
+  -o-animation-duration: 6s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+@keyframes float-bob {
+  0% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+}
+@keyframes float-bob2 {
+  0% {
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+}
+@keyframes float-bob3 {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+}
+@keyframes float-bob4 {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+}
+@keyframes float-bob5 {
+  0% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+}
+@keyframes float-bob6 {
+  0% {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+  }
+}
+@keyframes movebounce {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@keyframes moveleftbounce {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+
+  50% {
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+
+/*--==============================================->
+<!-- Medizet Animation Dance -->
+==================================================-*/
+.dance3 {
+  -webkit-animation: dance3 8s alternate infinite;
+  animation: dance3 8s alternate infinite;
+}
+
+@keyframes dance3 {
+  0% {
+    -webkit-transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+.dance {
+  -webkit-animation: dance 2s alternate infinite;
+  animation: dance 2s alternate infinite;
+}
+
+@keyframes dance {
+  0% {
+    -webkit-transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+  }
+}
+
+.dance2 {
+  -webkit-animation: dance2 4s alternate infinite;
+  animation: dance2 4s alternate infinite;
+}
+
+@keyframes dance2 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    -webkit-transform: translate3d(25px, -25px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, -25px, 25px);
+  }
+}
+
+.watermark-animate {
+  -webkit-animation: watermark-animate 8s infinite;
+  animation: watermark-animate 8s infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes watermark-animate {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+/* End curser point */
+
+/*===========================
+<-- Medizet Loader Css -->
+=============================*/
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.8s 1s ease;
+  z-index: 666;
+}
+
+.loader {
+  position: relative;
+  display: block;
+  z-index: 201;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  transition: all 1s 1s ease;
+  width: 48px;
+  height: 48px;
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  display: block;
+  border: 32px solid transparent;
+  border-top-color: #00ffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: weld-rotate 2s infinite ease-in;
+}
+.loader:before {
+  border-color: transparent transparent transparent var(--secondary-color);
+  animation-delay: 0.5s;
+}
+@keyframes weld-rotate {
+  0%,
+  25% {
+    transform: rotate(0deg);
+  }
+  50%,
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-wrapper .loder-section {
+  position: fixed;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, 100);
+  z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+  left: 0;
+  transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+  right: 0;
+  transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+.loaded .loder-section.left-section {
+  left: -100%;
+}
+
+.loaded .loder-section.right-section {
+  right: -100%;
+}
+
+.loaded .loader-wrapper {
+  visibility: hidden;
+}
+
+.loaded .loader {
+  top: -100%;
+  opacity: 0;
+}
+
+/* Responsive */
+
+@media (min-width: 1300px) and (max-width: 1370px) {
+  .service-section .swiper {
+    height: 530px !important;
+  }
+}
+
+/* large Desktop */
+
+@media (min-width: 1601px) and (max-width: 1770px) {
+  .service-section .swiper {
+    height: 480px !important;
+  }
+}
